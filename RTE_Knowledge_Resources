@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>RTE Knowledge Resources - ACLWiki</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.18.6" />
+<link rel="shortcut icon" href="favicon_acl_wiki.gif" />
+<link rel="search" type="application/opensearchdescription+xml" href="/aclwiki/opensearch_desc.php" title="ACLWiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://aclweb.org/aclwiki/api.php?action=rsd" />
+<link rel="alternate" type="application/atom+xml" title="ACLWiki Atom feed" href="/aclwiki/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="/aclwiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.monobook&amp;only=styles&amp;skin=monobook&amp;*" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/aclwiki/skins/monobook/IE50Fixes.css?303" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/aclwiki/skins/monobook/IE55Fixes.css?303" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/aclwiki/skins/monobook/IE60Fixes.css?303" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/aclwiki/skins/monobook/IE70Fixes.css?303" media="screen" /><![endif]--><meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: db465995666:resourceloader:filter:minify-css:4:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+<script src="/aclwiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=monobook&amp;*"></script>
+<script>if(window.mw){
+	mw.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "RTE_Knowledge_Resources", "wgTitle": "RTE Knowledge Resources", "wgCurRevisionId": 9545, "wgArticleId": 2308, "wgIsArticle": true, "wgAction": "view", "wgUserName": null, "wgUserGroups": ["*"], "wgCategories": [], "wgBreakFrames": false, "wgRestrictionEdit": [], "wgRestrictionMove": []});
+}
+</script><script>if(window.mw){
+	mw.loader.load(["mediawiki.page.startup"]);
+}
+</script>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-RTE_Knowledge_Resources action-view skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content">
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">RTE Knowledge Resources</h1>
+	<div id="bodyContent">
+		<div id="siteSub">From ACLWiki</div>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>
+		<!-- start content -->
+<div lang="en" dir="ltr" class="mw-content-ltr"><p>Knowledge resources have shown their relevance for applied semantic inference, and are extensively used by applied inference systems, such as those developed within the Textual Entailment framework.<br />
+<br />
+This page presents a list  of the  knowledge resources used by systems that have participated in the last RTE challenges. The first table lists the publicly available resources, the second one lists unpublished resources. Both tables are sortable by Resource name, type, author and number of users.<br />
+<br />
+RTE Participants are encouraged to add information about all kind of knowledge resources used, from standard existing resources (e.g. WordNet) to knowledge collections created for specific purposes, which can be made available to the community.<br />
+<br />
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Call_for_Resources"><span class="tocnumber">1</span> <span class="toctext">Call for Resources</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Ablation_Tests"><span class="tocnumber">2</span> <span class="toctext">Ablation Tests</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Publicly_available_Resources"><span class="tocnumber">3</span> <span class="toctext">Publicly available Resources</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Not_available_Resources"><span class="tocnumber">4</span> <span class="toctext">Not available Resources</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Footnotes"><span class="tocnumber">5</span> <span class="toctext">Footnotes</span></a></li>
+</ul>
+</td></tr></table>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id="Call_for_Resources"> Call for Resources </span></h3>
+<p>In order to help the research, all the participants are invited to contribute, sharing their own resources with the RTE community. 
+<br />
+Making the resources available to be used by other systems has several advantages. On the one hand, it helps improve the TE technology; on the other hand, it offers an opportunity to further test and evaluate the resource.
+<br />
+<br />
+</p>
+<ul><li><a href="/aclwiki/index.php?title=RTE6_-_Call_for_Resources" title="RTE6 - Call for Resources">RTE6 - Call for Resources</a>
+</li><li><a href="/aclwiki/index.php?title=RTE7_-_Call_for_Resources" title="RTE7 - Call for Resources">RTE7 - Call for Resources</a>
+</li></ul>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id="Ablation_Tests"> Ablation Tests </span></h3>
+<p>An ablation test consists of removing one module at a time from a system, and rerunning the system on the test set with the other modules, except the one tested. 
+<br />
+Ablation test are meant to help better understand the relevance of the knowledge resources used by RTE systems, and evaluate the contribution of each of them to the systems' performances. In fact, comparing the results achieved in the ablation tests to those obtained by the systems as a whole allows assessing the contribution given by each single resource.
+<br />
+<br />
+</p>
+<ul><li><a href="/aclwiki/index.php?title=RTE5_-_Ablation_Tests" title="RTE5 - Ablation Tests">RTE5 - Ablation Tests</a>
+</li><li><a href="/aclwiki/index.php?title=RTE6_-_Ablation_Tests" title="RTE6 - Ablation Tests">RTE6 - Ablation Tests</a>
+</li><li><a href="/aclwiki/index.php?title=RTE7_-_Ablation_Tests" title="RTE7 - Ablation Tests">RTE7 - Ablation Tests</a>
+</li></ul>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id="Publicly_available_Resources"> Publicly available Resources </span></h3>
+<table class="wikitable sortable" cellpadding="3" cellspacing="0" border="1">
+
+
+<tr bgcolor="#CDCDCD">
+<th width="80">Resource
+</th>
+<th width="50">Type
+</th>
+<th width="150">Author
+</th>
+<th class="unsortable" width="300">Brief description
+</th>
+<th width="45"><small>PAST Users <sup id="_ref-0" class="reference"><a href="#_note-0">[1]</a></sup></small>
+</th>
+<th width="45"><small>RTE4 Users<sup id="_ref-1" class="reference"><a href="#_note-1">[2]</a></sup></small>
+</th>
+<th width="45"><small>RTE5 Users<sup id="_ref-2" class="reference"><a href="#_note-2">[3]</a></sup></small>
+</th>
+<th width="45"><small>RTE6 Users<sup id="_ref-3" class="reference"><a href="#_note-3">[4]</a></sup></small>
+</th>
+<th class="unsortable" width="30"><small>Usage info</small>
+</th></tr>
+<tr bgcolor="#ECECEC">
+<td> <a href="/aclwiki/index.php?title=WordNet" title="WordNet">WordNet</a>
+</td>
+<td> Lexical DB
+</td>
+<td> Princeton University
+</td>
+<td> Lexical database of English nouns, verbs, adjectives and adverbs
+</td>
+<td style="text-align: center;">3
+</td>
+<td style="text-align: center;">21
+</td>
+<td style="text-align: center;">18
+</td>
+<td style="text-align: center;"> 22
+</td>
+<td> <a href="/aclwiki/index.php?title=WordNet_-_RTE_Users" title="WordNet - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://xwn.hlt.utdallas.edu/index.html">eXtended Wordnet</a>
+</td>
+<td> Lexical DB
+</td>
+<td> Human Language Technology Research Institute, University of Texas at Dallas
+</td>
+<td> Extension of WordNet based on the exploitation of the information contained in WordNet definitional glosses: the glosses are syntactically parsed, transformed into logic forms and content words are semantically disambiguated. The Extended Wordnet is an ongoing project.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">2
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=EXtended_WordNet_-_RTE_Users" title="EXtended WordNet - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://ai.stanford.edu/~rion/swn/">Augmented Wordnet</a>
+</td>
+<td> Lexical DB
+</td>
+<td> Stanford University
+</td>
+<td> The resource is the result of the application of a learning algorithm for inducing semantic taxonomies from parsed text. The algorithm automatically acquires items of world knowledge, and uses these to produce significantly enhanced versions of WordNet (up to 40,000 synsets more).
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Augmented_Wordnet_-_RTE_Users" title="Augmented Wordnet - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://verbs.colorado.edu/~mpalmer/projects/verbnet.html">Verbnet</a>
+</td>
+<td> Lexical DB
+</td>
+<td> University of Colorado Boulder
+</td>
+<td> Lexicon for English verbs organized into classes extending Levin (1993) classes through refinement and addition of subclasses to achieve syntactic and semantic coherence among members of a class
+</td>
+<td style="text-align: center;">2
+</td>
+<td style="text-align: center;">2
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Verbnet_-_RTE_Users" title="Verbnet - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a href="/aclwiki/index.php?title=VerbOcean" title="VerbOcean">VerbOcean</a>
+</td>
+<td> Lexical DB
+</td>
+<td> Information Sciences Institute, University of Southern California
+</td>
+<td> Broad-coverage semantic network of verbs
+</td>
+<td style="text-align: center;">2
+</td>
+<td style="text-align: center;">3
+</td>
+<td style="text-align: center;">6
+</td>
+<td style="text-align: center;"> 7
+</td>
+<td> <a href="/aclwiki/index.php?title=VerbOcean_-_RTE_Users" title="VerbOcean - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://framenet.icsi.berkeley.edu/">FrameNet</a>
+</td>
+<td> Lexical DB
+</td>
+<td> ICSI (International Computer Science Institute) - Berkley University
+</td>
+<td> Lexical resource for English words, based on frame semantics (valences) and supported by corpus evidence
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">2
+</td>
+<td style="text-align: center;"> 3
+</td>
+<td> <a href="/aclwiki/index.php?title=Framenet_-_RTE_Users" title="Framenet - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://nlp.cs.nyu.edu/meyers/NomBank.html">NomBank</a>
+</td>
+<td> Lexical DB
+</td>
+<td> New York University
+</td>
+<td> Lexical resource containing syntactic frames for nouns, extracted from annotated corpora
+</td>
+<td style="text-align: center;">2
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=NomBank_Resource_-_RTE_Users" title="NomBank Resource - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://verbs.colorado.edu/~mpalmer/projects/ace.html">PropBank</a>
+</td>
+<td> Lexical DB
+</td>
+<td> University of Colorado Boulder
+</td>
+<td> Lexical resource containing syntactic frames for verbs, extracted from annotated corpora
+</td>
+<td style="text-align: center;">2
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=PropBank_Resource_-_RTE_Users" title="PropBank Resource - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://nlp.cs.nyu.edu/nomlex/index.html">Nomlex</a> Plus
+</td>
+<td> Lexical DB
+</td>
+<td> New York University
+</td>
+<td> Dictionary of English nominalizations: it describes the allowed complements for a nominalization and relates the nominal complements to the arguments of the corresponding verb
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Nomlex_Plus_-_RTE_Users" title="Nomlex Plus - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://www.cs.ualberta.ca/~lindek/downloads.htm">Dekang Lin’s Thesaurus</a>
+</td>
+<td> Thesaurus
+</td>
+<td> University of Alberta
+</td>
+<td> Thesaurus automatically constructed using a parsed corpus, based on distributional similarity scores
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 2
+</td>
+<td> <a href="/aclwiki/index.php?title=Dekang_Lin%E2%80%99s_Thesaurus_-_RTE_Users" title="Dekang Lin’s Thesaurus - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://icon.shef.ac.uk/Moby/mthes.html">Grady Ward's Moby Thesaurus</a>
+</td>
+<td> Thesaurus
+</td>
+<td> University of Sheffield
+</td>
+<td> Thesaurus containing 30,260 root words, with 2,520,264 synonyms and related terms. Grady Ward placed this thesaurus in the public domain in 1996.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Grady_Ward%27s_Moby_Thesaurus_-_RTE_Users" title="Grady Ward's Moby Thesaurus - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Roget%27s_Thesaurus">Roget's Thesaurus</a>
+</td>
+<td> Thesaurus
+</td>
+<td> Peter Mark Roget (Electronic version distributed by University of Chicago)
+</td>
+<td> Roget's Thesaurus is a widely-used English thesaurus, created by Dr. Peter Mark Roget in 1805. The original edition had 15,000 words, and each new edition has been larger. The electronic edition (<a rel="nofollow" class="external text" href="http://machaut.uchicago.edu/rogets">version 1.02</a>) is made available by University of Chicago.
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Roget%27s_Thesaurus_-_RTE_Users" title="Roget's Thesaurus - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://www.wikipedia.org/">Wikipedia</a>
+</td>
+<td> Encyclopedia
+</td>
+<td>
+</td>
+<td> Free encyclopedia. Used for extraction of lexical-semantic rules (from its more structured parts), named entity recognition, geographical information etc.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">3
+</td>
+<td style="text-align: center;">6
+</td>
+<td style="text-align: center;"> 6
+</td>
+<td> <a href="/aclwiki/index.php?title=Wikipedia_-_RTE_Users" title="Wikipedia - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://www.umbel.org/">Umbel</a>
+</td>
+<td> Ontology
+</td>
+<td> Structured Dynamics LLC, Coralville, IA
+</td>
+<td> UMBEL stands for  Upper Mapping and Binding Exchange Layer and is a lightweight ontology structure for relating Web content and data to a standard set of subject concepts
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Umbel_-_RTE_Users" title="Umbel - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://www.mpi-inf.mpg.de/yago-naga/yago/">YAGO</a>
+</td>
+<td> Ontology
+</td>
+<td> Max-Planck Institute for Informatics, Saarbrücken, Germany
+</td>
+<td> Light-weight and extensible ontology. It contains more than 2 million entities and 20 million facts about these entities. The facts have been automatically extracted from Wikipedia and unified with WordNet.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=YAGO_-_RTE_Users" title="YAGO - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://dbpedia.org/About">DBpedia</a>
+</td>
+<td> Ontology
+</td>
+<td> Open community project
+</td>
+<td> DBpedia is a community effort to extract structured information from Wikipedia and to make this information available on the Web. The DBpedia knowledge base currently describes more than 2.9 million things in 91 different languages and consists of 479 million pieces of information.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=DBpedia_-_RTE_Users" title="DBpedia - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a href="/aclwiki/index.php?title=DIRT_Paraphrase_Collection" title="DIRT Paraphrase Collection">DIRT Paraphrase Collection</a>
+</td>
+<td> Collection of paraphrases
+</td>
+<td> University of Alberta
+</td>
+<td> DIRT (Discovery of Inference Rules from Text) is both an algorithm and a resulting knowledge collection. The DIRT knowledge collection is the output of the DIRT algorithm over a 1GB set of newspaper text.
+</td>
+<td style="text-align: center;">2
+</td>
+<td style="text-align: center;">4
+</td>
+<td style="text-align: center;">3
+</td>
+<td style="text-align: center;"> 4
+</td>
+<td> <a href="/aclwiki/index.php?title=DIRT_Paraphrase_Collection_-_RTE_Users" title="DIRT Paraphrase Collection - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a href="/aclwiki/index.php?title=TEASE" title="TEASE">TEASE</a> Collection
+</td>
+<td> Collection of Entailment Rules
+</td>
+<td> Bar-Ilan University
+</td>
+<td> Output of the TEASE algorithm
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Tease_Collection_-_RTE_Users" title="Tease Collection - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://badc.nerc.ac.uk/help/abbrevs.html">BADC Acronym and Abbreviation List</a>
+</td>
+<td> Word List
+</td>
+<td> BADC (British Atmospheric Data Centre)
+</td>
+<td> Acronym and Abbreviation List
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=BADC_Acronym_and_Abbreviation_List_-_RTE_Users" title="BADC Acronym and Abbreviation List - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://clipdemos.umiacs.umd.edu/catvar/">Catvar The Categorial Variation Database (English)</a>
+</td>
+<td> Word List
+</td>
+<td> University of Maryland
+</td>
+<td> A Categorial-Variation Database (or Catvar) is a database of clusters of uninflected words (lexemes) and their categorial (i.e. part-of-speech) variants. The database was developed for English using a combination of resources and algorithms, including the LCS Verb and Preposition Databases (Dorr 2001), the Brown Corpus section of the Penn Treebank (Marcus et al. 1994), an English morphological analysis lexicon developed for PC-Kimmo (ENGLEX) (Antworth 1990), WordNet1.6 (Fellbaum 1998), an English Verb-Noun list extracted from Nomlex (Macleod et al. 1998), a similar list extracted from LDOCE (Procter 1978) and the Porter stemmer (Porter 1980).
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 1
+</td>
+<td> <a href="/aclwiki/index.php?title=Categorial-Variation_Database_-_RTE_Users&amp;action=edit&amp;redlink=1" class="new" title="Categorial-Variation Database - RTE Users (page does not exist)">Users</a>
+<p><br />
+</p>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://www.acronym-guide.com/">Acronym Guide</a>
+</td>
+<td> Word List
+</td>
+<td> Acronym-Guide.com
+</td>
+<td> Acronym and Abbreviation Lists for English, branched in thematic directories
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">3
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Acronym_Guide_-_RTE_Users" title="Acronym Guide - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2006T13">Web1T 5-grams</a>
+</td>
+<td> Word list
+</td>
+<td> Linguistic Data Consortium, University of Pennsylvania; Google Inc.
+</td>
+<td> Data set containing English word n-grams and their observed frequency counts. The n-gram counts were generated from approximately 1 trillion word tokens of text from publicly accessible Web pages
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Web1T_-_RTE_Users" title="Web1T - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://www.coli.uni-saarland.de/%7Erwang/resources/RTE3_RTE4_NGD.zip">Normalized Google Distance (RTE3&amp;RTE4)</a>
+</td>
+<td> Word Pair Co-occurrence
+</td>
+<td> Saarland University
+</td>
+<td> Co-occurrence of the word pairs in RTE3 and RTE4 using Normalized Google Distance (Cilibrasi and Vitanyi, 2004). The word pairs are all the possible combinations of content words in T and H. In practice, we used <a rel="nofollow" class="external text" href="http://m.www.yahoo.com/">Yahoo!</a> as the search engine.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Normalized_Google_Distance_(RTE3%26RTE4)-_RTE_Users" title="Normalized Google Distance (RTE3&amp;RTE4)- RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://www.coli.uni-saarland.de/%7Erwang/resources/RTE5_NGD.zip">Normalized Google Distance (RTE5)</a>
+</td>
+<td> Word Pair Co-occurrence
+</td>
+<td> Saarland University
+</td>
+<td> Co-occurrence of the word pairs in RTE3 and RTE4 using Normalized Google Distance (Cilibrasi and Vitanyi, 2004). The word pairs are all the possible combinations of content words in T and H. In practice, we used <a rel="nofollow" class="external text" href="http://m.www.yahoo.com/">Yahoo!</a> as the search engine.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Normalized_Google_Distance_(RTE5)-_RTE_Users" title="Normalized Google Distance (RTE5)- RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://geonames.usgs.gov/index.html">GNIS - Geographic Names Information System</a>
+</td>
+<td> Gazetteer
+</td>
+<td> USGS (United States Geological Survey)
+</td>
+<td> Database containing the Federal and national standard toponyms for USA, associated areas and Antarctica
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=GNIS_-_RTE_Users" title="GNIS - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://www.geonames.org/">Geonames</a>
+</td>
+<td> Gazetteer
+</td>
+<td>
+</td>
+<td> Database containing eight million geographical names. It is integrating geographical data such as names of places in various languages, elevation, population and others from various sources.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Geonames_-_RTE_Users" title="Geonames - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://nlp.cs.nyu.edu/paraphrase/">Sekine's Paraphrase Database</a>
+</td>
+<td> Collection of paraphrases
+</td>
+<td> Department of Computer Science, New York University
+</td>
+<td> Data-base created using Sekine's method, NOT cleaned up by human. It includes 19,975 sets of paraphrases with 191,572 phrases.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Sekine%27s_Paraphrase_Database_-_RTE_Users" title="Sekine's Paraphrase Database - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://research.microsoft.com/research/downloads/Details/607D14D9-20CD-47E3-85BC-A2F65CD28042/Details.aspx">Microsoft Research Paraphrase Corpus</a>
+</td>
+<td> Collection of paraphrases
+</td>
+<td> Microsoft Research
+</td>
+<td> Text file containing 5800 pairs of sentences which have been extracted from news sources on the web, along with human annotations indicating whether each pair captures a paraphrase/semantic equivalence relationship.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Microsoft_Research_Paraphrase_Corpus_-_RTE_Users" title="Microsoft Research Paraphrase Corpus - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://www.cs.cornell.edu/~cristian/Without_a_doubt_-_Data.html">Downward entailing operators</a>
+</td>
+<td> Collection of entailing operators
+</td>
+<td> Department of Computer Science, Cornell University, Ithaca NY
+</td>
+<td> System output of an unsupervised algorithm recovering many Downward Entailing operators, like 'doubt'.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=Downward_entailing_operators_-_RTE_Users" title="Downward entailing operators - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td><a rel="nofollow" class="external text" href="http://u.cs.biu.ac.il/~nlp/downloads/WikiRules.html">WikiRules!</a>
+</td>
+<td> Lexical Reference rule-base
+</td>
+<td> Bar-Ilan University
+</td>
+<td> Extraction of about 8 million lexical reference rules from the text body (first sentence) and from metadata (links, redirects, parentheses) of Wikipedia. Provides better performance than other automatically constructed resources and comparable performance to WordNet. Offers complementary knowledge to WordNet.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=WikiRules!_-_RTE_Users" title="WikiRules! - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td><a rel="nofollow" class="external text" href="http://www.cs.utexas.edu/users/pclark/dart/">DART</a>
+</td>
+<td> Collection of "world knowledge" propositions
+</td>
+<td> Boeing Research and Technology
+</td>
+<td> 23 million tuples such as "airplanes can fly to airports", "rivers can flood" collected from abstracted parse trees.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=DART_-_RTE_Users&amp;action=edit&amp;redlink=1" class="new" title="DART - RTE Users (page does not exist)">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td><a rel="nofollow" class="external text" href="http://cs.biu.ac.il/~nlp/downloads/FRED.html">FRED</a>
+</td>
+<td> FrameNet-derived entailment rule-base
+</td>
+<td> Bar-Ilan University
+</td>
+<td> This package contains the outputs of the FRED algorithm which extracts entailment rules from FrameNet.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=FRED_-_RTE_Users&amp;action=edit&amp;redlink=1" class="new" title="FRED - RTE Users (page does not exist)">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td><a rel="nofollow" class="external text" href="http://u.cs.biu.ac.il/~nlp/downloads/DIRECT.html">DIRECT</a>
+</td>
+<td> Directional Distributional Term-Similarity Resource
+</td>
+<td> Bar-Ilan University
+</td>
+<td> This is a resource of directional distributional term-similarity rules (mostly lexical entailment rules) automatically extracted using the inclusion relation as described in (Kotlerman et.al., ACL-09).
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=DIRECT_-_RTE_Users&amp;action=edit&amp;redlink=1" class="new" title="DIRECT - RTE Users (page does not exist)">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td><a rel="nofollow" class="external text" href="http://u.cs.biu.ac.il/~nlp/downloads/binaryDirt.html">binaryDIRT</a>
+</td>
+<td> Entailment rules between binary templates using DIRT algorithm
+</td>
+<td> Bar-Ilan University
+</td>
+<td> This resource contains entailment rules over binary templates learned over the Reuters corpus using
+<p>the DIRT algorithm of Lin and Pantel.
+</p>
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=BinaryDIRT-_RTE_Users&amp;action=edit&amp;redlink=1" class="new" title="BinaryDIRT- RTE Users (page does not exist)">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td><a rel="nofollow" class="external text" href="http://u.cs.biu.ac.il/~nlp/downloads/unaryBInc.html">unaryBInc</a>
+</td>
+<td> Entailment rules between unary templates using BInc algorithm
+</td>
+<td> Bar-Ilan University
+</td>
+<td> This resource contains entailment rules over unary templates learned over the Reuters corpus using
+<p>the BInc algorithm of Szpektor and Dagan (2008).
+</p>
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;"> 0
+</td>
+<td> <a href="/aclwiki/index.php?title=UnaryBInc-_RTE_Users&amp;action=edit&amp;redlink=1" class="new" title="UnaryBInc- RTE Users (page does not exist)">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <i>New resource</i>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> <i>Participants are encouraged to contribute</i>
+</td>
+<td style="text-align: center;">
+</td>
+<td style="text-align: center;">
+</td>
+<td style="text-align: center;">
+</td>
+<td style="text-align: center;">
+</td>
+<td> <a href="/aclwiki/index.php?title=New_Resource2_-_RTE_Users" title="New Resource2 - RTE Users">Users</a>
+</td></tr></table>
+<p><br />
+<br />
+</p>
+<h3> <span class="mw-headline" id="Not_available_Resources"> Not available Resources </span></h3>
+<p>The following table lists the unpublished resources used by RTE participants. Some of them have been developed by Users themselves specifically for RTE. Interested people may turn to authors to obtain further information.
+<br />
+</p>
+<table class="wikitable sortable" cellpadding="3" cellspacing="0" border="1">
+
+
+<tr bgcolor="#CDCDCD">
+<th width="80">Resource
+</th>
+<th width="50">Type
+</th>
+<th width="180">Author
+</th>
+<th class="unsortable" width="500">Brief description
+</th>
+<th width="30"><small>PAST Users</small>
+</th>
+<th width="30"><small>RTE4 Users</small>
+</th>
+<th width="30"><small>RTE5 Users</small>
+</th>
+<th width="30"><small>RTE6 Users</small>
+</th>
+<th class="unsortable" width="30"><small>Usage info</small>
+</th></tr>
+<tr bgcolor="#ECECEC">
+<td> <a rel="nofollow" class="external text" href="http://www.parc.com/">PARC</a> Polarity Lexicon
+</td>
+<td> Lexical DB
+</td>
+<td> PARC - Palo Alto Research Center
+</td>
+<td> Verbs classification with respect to semantic polarity
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=Parc_Polarity_Lexicon_-_RTE_Users" title="Parc Polarity Lexicon - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> Gazetteer from <a rel="nofollow" class="external text" href="http://trec.nist.gov/">TREC</a>
+</td>
+<td> Gazetteer
+</td>
+<td> NIST -  National Institute of Standards and Technology
+</td>
+<td> Cities and other geographical names
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=Gazetteer_from_TREC_-_RTE_Users" title="Gazetteer from TREC - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> DFKI Geographic Ontology<br /><i>(to be released)</i>
+</td>
+<td> Ontology
+</td>
+<td> DFKI - German Research Center for Artificial Intelligence
+</td>
+<td> Ontology containing geographic terms and two kinds of relations: the directional <i>part-of</i> relation, and the <i>equal</i> relation for synonyms and abbreviations of the same geographic area (e.g <i>the United Kingdom</i>, <i>the UK</i>, <i>Great Britain</i>, etc.)
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=Geographic_Ontology_-_RTE_Users" title="Geographic Ontology - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <i>Geo</i>
+</td>
+<td> Collection of Entailment Rules
+</td>
+<td> Bar-Ilan University; Tel-Aviv University
+</td>
+<td> Meronymy entailment rules, based on TREC’s TIPSTER gazetteer.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=Geo_-_RTE_Users" title="Geo - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <i>Regex</i>
+</td>
+<td> Collection of Entailment rules
+</td>
+<td> Bar-Ilan University; Tel-Aviv University
+</td>
+<td> Small set of entailment rules based on regular expressions, intended to address lexical variability involving temporal phrases
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=Regex_-_RTE_Users" title="Regex - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> Syntactic rule base <br /><i>(to be released)</i>
+</td>
+<td> Collection of Entailment Rules
+</td>
+<td> Bar-Ilan University; Tel-Aviv University
+</td>
+<td> A manually-composed collection of entailment rules which define parse tree transformations. The rules cover generic syntactic phenomena such as appositions, conjunctions, passive, relative clause,  etc. (Bar-Haim et al., AAAI-07)
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=Syntactic_rule_base_-_RTE_Users" title="Syntactic rule base - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> Polarity rule base <br /><i>(to be released)</i>
+</td>
+<td> Collection of Entailment Rules
+</td>
+<td> Bar-Ilan University; Tel-Aviv University
+</td>
+<td> A manually-composed collection of entailment rules which detect predicates whose polarity is negative (e.g. didn't dance) or unknown (e.g. plans to dance). The rules capture diverse phenomena that affect polarity, e.g. verbal negation, modal verbs, conditionals, and certain verbs that induce negative or "unknown" polarity context. The latter were taken mainly from VerbNet. Extends a resource described in (Bar-Haim et al., AAAI-07)
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=Polarity_rule_base_-_RTE_Users" title="Polarity rule base - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> Lexical-Syntactic rule base
+</td>
+<td> Collection of Entailment Rules
+</td>
+<td> Bar-Ilan University; Tel-Aviv University
+</td>
+<td> Extract lexical-syntactic entailment rules for predicates (verbal and nominal),  including argument mapping. The resource is based on WordNet, Nomlex-Plus and  Unary DIRT (Szpektor and Dagan, Coling 08)
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=Lexical-Syntactic_rule_base_-_RTE_Users" title="Lexical-Syntactic rule base - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> OPENU Collection
+</td>
+<td> Collection of Entailment Rules and Patterns
+</td>
+<td> Open University
+</td>
+<td> Collections of rules, patterns etc. for RTE purpose, extracted from Reuter corpus parsed using Minipar.
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=OPENU_Collection_-_RTE_Users" title="OPENU Collection - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> <i>Abbr</i>
+</td>
+<td> Collection of rules for abbreviation
+</td>
+<td> Bar-Ilan University; Tel-Aviv University
+</td>
+<td> 2000 Abbreviation rules, extracted from <a rel="nofollow" class="external text" href="http://badc.nerc.ac.uk/help/abbrevs.html">BADC</a> and <a rel="nofollow" class="external text" href="http://www.acronym-guide.com/">Acronym Guide</a>
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=Abbr_-_RTE_Users" title="Abbr - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> UAIC Negation_list
+</td>
+<td> Negation rules
+</td>
+<td> „Al. I. Cuza“ University, Iasi, Romania
+</td>
+<td> List of negative terms and words (verbs, adjectives, nouns) affecting modality or factuality of a infinitive verb preceded by the particle "to" (e.g. "believe","necessary", "attempt")
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=UAIC_Negation_list_-_RTE_Users" title="UAIC Negation list - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> DLSIUAES Negation_list
+</td>
+<td> List of negative terms
+</td>
+<td> University of Alicante
+</td>
+<td> Basic list of negative terms.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=DLSIUAES_Negation_list_-_RTE_Users" title="DLSIUAES Negation list - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> UAIC Quantifier_list
+</td>
+<td> List of quantifiers
+</td>
+<td> „Al. I. Cuza“ University, Iasi, Romania
+</td>
+<td> List of quantifiers affecting entailment judgment. The quantifiers are taken from a list which contains expressions like “more than”, “less than”, or words such as “over”, “under”, etc.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=UAIC_Quantifier_list_-_RTE_Users" title="UAIC Quantifier list - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> FBKirst StopWord list
+</td>
+<td> List of frequent words
+</td>
+<td> FBK-Irst;<br />University of Trento - Italy
+</td>
+<td> A list of the 572 most frequent English words.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td style="text-align: center;">0
+</td>
+<td> <a href="/aclwiki/index.php?title=FBKirst_StopWord_list_-_RTE_Users" title="FBKirst StopWord list - RTE Users">Users</a>
+</td></tr>
+<tr bgcolor="#ECECEC">
+<td> IKOMA Dictionary of Named Entities Acronyms and Synonyms
+</td>
+<td> Dictionary of Named Entities Acronyms and Synonyms
+</td>
+<td> IKOMA; NEC Corporation, Takayama, Ikoma, Nara, Japan
+</td>
+<td> Acronym dictionary constructed automatically from the corpus and a synonym dictionary that contains geographical terms.
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">0
+</td>
+<td style="text-align: center;">1
+</td>
+<td> <a href="/aclwiki/index.php?title=IKOMA2_-_RTE_Users" title="IKOMA2 - RTE Users">Users</a>
+</td></tr></table>
+<p><br />
+</p>
+<h2> <span class="mw-headline" id="Footnotes">Footnotes</span></h2>
+<ol class="references"><li id="_note-0"><a href="#_ref-0">↑</a> RTE-3 data have been provided by participants by means of a questionnaire.</li>
+<li id="_note-1"><a href="#_ref-1">↑</a> RTE-4 data have been provided by participants and have been integrated with information extracted from the related proceedings.</li>
+<li id="_note-2"><a href="#_ref-2">↑</a> RTE-5 data have been provided by participants and have been integrated with information extracted from the related proceedings.</li>
+<li id="_note-3"><a href="#_ref-3">↑</a> RTE-6 data have been provided by participants and have been integrated with information extracted from the related proceedings.</li></ol>
+<pre>Return to: <a href="/aclwiki/index.php?title=Textual_Entailment_Resource_Pool" title="Textual Entailment Resource Pool">Textual_Entailment_Resource_Pool</a>
+</pre>
+<!-- 
+NewPP limit report
+Preprocessor node count: 95/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key db465995666:pcache:idhash:2308-0!*!0!!en!*!* and timestamp 20130517072606 -->
+</div><div class="printfooter">
+Retrieved from "<a href="http://aclweb.org/aclwiki/index.php?title=RTE_Knowledge_Resources&amp;oldid=9545">http://aclweb.org/aclwiki/index.php?title=RTE_Knowledge_Resources&amp;oldid=9545</a>"</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+				<li id="ca-nstab-main" class="selected"><a href="/aclwiki/index.php?title=RTE_Knowledge_Resources" title="View the content page [c]" accesskey="c">Page</a></li>
+				<li id="ca-talk" class="new"><a href="/aclwiki/index.php?title=Talk:RTE_Knowledge_Resources&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				<li id="ca-viewsource"><a href="/aclwiki/index.php?title=RTE_Knowledge_Resources&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				<li id="ca-history"><a href="/aclwiki/index.php?title=RTE_Knowledge_Resources&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/aclwiki/index.php?title=Special:UserLogin&amp;returnto=RTE+Knowledge+Resources" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a title="Visit the main page" style="background-image: url(acl-logo.gif);" href="/aclwiki/index.php?title=Main_Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class="generated-sidebar portlet" id="p-navigation">
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/aclwiki/index.php?title=Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+				<li id="n-portal"><a href="/aclwiki/index.php?title=ACLWiki:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+				<li id="n-currentevents"><a href="/aclwiki/index.php?title=ACLWiki:Current_events" title="Find background information on current events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/aclwiki/index.php?title=Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="/aclwiki/index.php?title=Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="/aclwiki/index.php?title=Help:Contents" title="The place to find out">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/aclwiki/index.php" id="searchform">
+				<input type='hidden' name="title" value="Special:Search"/>
+				<input type="search" name="search" title="Search ACLWiki [f]" accesskey="f" id="searchInput" />
+				<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />&#160;
+				<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/aclwiki/index.php?title=Special:WhatLinksHere/RTE_Knowledge_Resources" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/aclwiki/index.php?title=Special:RecentChangesLinked/RTE_Knowledge_Resources" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+				<li id="t-specialpages"><a href="/aclwiki/index.php?title=Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li><a href="/aclwiki/index.php?title=RTE_Knowledge_Resources&amp;printable=yes" rel="alternate">Printable version</a></li>
+				<li id="t-permalink"><a href="/aclwiki/index.php?title=RTE_Knowledge_Resources&amp;oldid=9545" title="Permanent link to this revision of the page">Permanent link</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico">
+		<a href="http://www.mediawiki.org/"><img src="/aclwiki/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+	</div>
+	<ul id="f-list">
+		<li id="lastmod"> This page was last modified on 25 June 2012, at 07:18.</li>
+		<li id="viewcount">This page has been accessed 55,035 times.</li>
+		<li id="privacy"><a href="/aclwiki/index.php?title=ACLWiki:Privacy_policy" title="ACLWiki:Privacy policy">Privacy policy</a></li>
+		<li id="about"><a href="/aclwiki/index.php?title=ACLWiki:About" title="ACLWiki:About">About ACLWiki</a></li>
+		<li id="disclaimer"><a href="/aclwiki/index.php?title=ACLWiki:General_disclaimer" title="ACLWiki:General disclaimer">Disclaimers</a></li>
+	</ul>
+</div>
+</div>
+<script>if(window.mw){
+	mw.loader.load(["mediawiki.user", "mediawiki.util", "mediawiki.page.ready", "mediawiki.legacy.wikibits", "mediawiki.legacy.ajax"]);
+}
+</script>
+<script>if(window.mw){
+	mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"monobook","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,
+	"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;mw.user.tokens.set({"editToken":"+\\","watchToken":false});;mw.loader.state({"user.options":"ready","user.tokens":"ready"});
+	
+	/* cache key: db465995666:resourceloader:filter:minify-js:4:99acc2c3ab516bb21085c70c2195f3df */
+}
+</script><!-- Served in 0.236 secs. --></body></html>

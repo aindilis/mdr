@@ -1,0 +1,2293 @@
+<HTML>
+<HEAD>
+<TITLE>FRDCSA: Current internal codebases, sorted alphabetically</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#ffffff" text="#000000" link="#000066" vlink="#660033" alink="#ff0000">
+<FONT FACE="Arial, Helvetica, 'Sans Serif'">
+<table border=0 cellpadding=0 cellspacing=0 width="100%">
+  <tr align="left" valign="bottom">
+    <td bgcolor="#000000" align="left">
+    &nbsp
+    </td>
+    <td bgcolor="#000000" align="right">
+    </td></tr>
+  <tr>
+    <td BGCOLOR="#bbddff" colspan=2>
+      <FONT FACE="Arial, Helvetica, 'Sans Serif'" SIZE="-1">
+      <A HREF="http://frdcsa.onshore.net/">FRDCSA</A> | internal codebases      </FONT><BR>
+    </td>
+  </tr>
+</table>
+
+<P>
+<FONT FACE="Century Schoolbook" SIZE="+2"><strong>
+<B>Current internal codebases, sorted alphabetically</B></strong></FONT><P>
+<FONT FACE="Arial, Helvetica, 'Sans Serif'" SIZE="-1">
+<B>View: </B><a href="../internal/index.html">internal codebases</a> | <a href="../external/index.html">external codebases</a> | <a href="../binary/index.html">packages</a></FONT><P>
+<FONT FACE="Arial, Helvetica, 'Sans Serif'" SIZE="-1">
+<form method="get" action="http://www.google.com/custom">
+<!-- the following can be for the main page
+<A HREF=http://www.google.com/search>
+<IMG SRC=http://www.google.com/logos/Logo_40wht.gif border=0 ALT=Google align=middle></A>
+-->
+
+<fieldset><legend><B>Or Query By NL, SubL or SQL:</B></legend>
+	<input type="text" name="q" id="find-text" size="80" maxlength="255" value="">
+	<input type="submit" name="sa" class="find-submit" value="Query">
+
+	<input type="hidden" name="cof" value="ALC:red;BGC:#f8f8f8;AH:center;VLC:#330066;AWFID:dffed31703ac1e0a;">
+	<input type="hidden" name="domains" value="http://frdcsa.onshore.net">
+	<input type="hidden" name="sitesearch" value="http://frdcsa.onshore.net">
+
+</fieldset>
+</form></FONT>
+<P><A NAME="/project_lists/projects_by_alpha_0.html"></A>
+
+<table width="100%" cellpadding=3 cellspacing=0 border=0>
+<tr valign="top" BGCOLOR="#cccccc">
+<td><FONT FACE="Arial, Helvetica, 'Sans Serif'">
+      Internal codebases are software we have written in order to
+      further our aims to collect and integrate software and to solve
+      problems that affect people using FLOSS software.  The most
+      important tools to the most casual user will be
+      Busroute/Gourmet, to the intermediate user with be Unilang and
+      all its agents (Manager/Verber/PSE/...), and to the developer
+      RADAR/Packager/Architect.  Most of the systems are 1st
+      generation and will either evolve out of additions and
+      integrations or be rewritten.  They are mostly written in OO
+      Perl.  The more red text is, the newer it is.  The Arch gifs are
+      of the actual code.
+    
+</FONT></td>
+</tr></table><P>
+<TABLE WIDTH="100%" CELLPADDING=0 CELLSPACING=0 BORDER=1>
+<TR VALIGN="TOP">
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "agent/index.html"></A><BR>
+<font size=-3>Arch <a href="agent/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "agent/index.html">
+    Agent
+  </A></B> - <em>
+    An implementation of something like Jason or Spark for Perl.
+  </em><br><font color="6E0000">Maybe use OpenCyc for reasoning, or Vampire.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "akahige/index.html"></A><BR>
+<font size=-3>Arch <a href="akahige/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "akahige/index.html">
+    Akahige
+    
+  </A></B> - <em>
+    Shoestring public health
+    
+  </em><br><font color="2A0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/akahige/index.html">akahige</a> is a free medical assistant to be used when a physician is
+    unavailable.</font>
+<font color="2A0000">It will  contain  an expert  system for  diagnosing
+    medical  problems.</font>
+<font color="2A0000">In  this  way otherwise  unavailable  medical
+    knowledge  may be  brought to  bear.</font>
+<font color="2A0000">It  also makes  use  of folk
+    medicinal  knowledge.</font>
+<font color="2A0000">Together,  RSR/<a href="http://frdcsa.onshore.net/frdcsa/internal/gourmet/index.html">gourmet</a>/<a href="http://frdcsa.onshore.net/frdcsa/internal/akahige/index.html">akahige</a>  provide  a
+    robust record  mechanism with  which to determine  empirically the
+    effectiveness   of  various   remedies.</font>
+<font color="2A0000">The  diagnosis   system
+    immediately wraps  into an  execution component.</font>
+<font color="2A0000">For  instance if
+    someone  is in  need  of emergency  assistance  like CPR,  <a href="http://frdcsa.onshore.net/frdcsa/internal/akahige/index.html">akahige</a>
+    provides interactive  instruction.</font>
+<font color="2A0000">A large  set of SOPs  and COAs
+    are stored and if interested  or necessary may be taught to people
+    using <a href="http://frdcsa.onshore.net/frdcsa/internal/clear/index.html">clear</a>.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "all/index.html"></A><BR>
+<font size=-3>Arch <a href="all/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "all/index.html">
+    ALL
+  </A></B> - <em>
+    Language Acquisition ITS
+  </em><br><font color="310000"><a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a> is  a system  that supports many  tasks of  language learning.</font>
+<font color="310000">Knowledge of  other languages is deemed essential  to education of
+    the mind and, when combined  with <a href="http://frdcsa.onshore.net/frdcsa/internal/clear/index.html">clear</a>, opens the door to immense
+    quantities of knowledge.</font>
+<font color="310000"><a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a>  supports this task for both written
+    and  spoken  language (a  necessity).</font>
+<font color="310000">It  interfaces with  <a href="http://frdcsa.onshore.net/frdcsa/internal/bard/index.html">bard</a>,
+    <a href="http://frdcsa.onshore.net/frdcsa/internal/clear/index.html">clear</a>, and <a href="http://frdcsa.onshore.net/frdcsa/internal/picform/index.html">picform</a>.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "alleyoop/index.html"></A><BR>
+<font size=-3>Arch <a href="alleyoop/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "alleyoop/index.html">
+    AlleyOop
+  </A></B> - <em>
+    Text browsing assistant via modular proxy
+  </em><br><font color="DB0000">A very featureful way to browse the web more intelligently by
+    integrating offline analysis based on user profile information,
+    with many modules to improve the utility an actionability of the
+    interface based on other FRDCSA tools.</font>
+<font color="DB0000">Also a forerunning of what
+    is to be done with Emacs buffers in <a href="http://frdcsa.onshore.net/frdcsa/internal/kmax/index.html">kmax</a>.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "antispam-console/index.html"></A><BR>
+<font size=-3>Man <a href="antispam-console/manual.ps">[PS]</a><br>Arch <a href="antispam-console/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "antispam-console/index.html">
+    Anti-Spam Console
+  </A></B> - <em>
+    Tests spamfilter results
+  </em><br><font color="4B0000">Should be  installed on  the machine running  the mail  server, as
+    well as a separate machine.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "antispam-node/index.html"></A><BR>
+<font size=-3>Arch <a href="antispam-node/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "antispam-node/index.html">
+    AntiSpam-Node
+  </A></B> - <em>
+    Software to install on spam filtering nodes.
+  </em><br><font color="6E0000">Consists of a  Debian package to be installed  on remote machines.</font>
+<font color="6E0000">Includes Current SA installation, updated rules, custom rules, and
+    scripts to allow <a href="http://frdcsa.onshore.net/frdcsa/internal/antispam-console/index.html">antispam-console</a> to interact with the nodes.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "apartment-finder/index.html"></A><BR>
+<font size=-3>Arch <a href="apartment-finder/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "apartment-finder/index.html">
+    Apartment Finder
+  </A></B> - <em>
+    Locate apartments
+  </em><br><font color="450000">Provides many sophisticated apartment finding functions.</font>
+<font color="DB0000">Looks at
+    factors such as location, price, certain features.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "architect/index.html"></A><BR>
+<font size=-3>Arch <a href="architect/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "architect/index.html">
+    Architect
+    
+  </A></B> - <em>
+    Requirements and capabilities PSE
+    
+  </em><br><font color="250000"><a href="http://frdcsa.onshore.net/frdcsa/internal/architect/index.html">architect</a>    semi-automatically   brokers   project    goals   and
+    requirements with  software capabilities.</font>
+<font color="6E0000">On the one  hand, it is
+    active  as  a  master   planner  and  scheduler  in  the  software
+    development and acquisition phases,  and on the other, it executes
+    the  application of  packaged  software from  <a href="http://frdcsa.onshore.net/frdcsa/internal/packager/index.html">packager</a> to  satisfy
+    goals from <a href="http://frdcsa.onshore.net/frdcsa/internal/pse/index.html">pse</a>.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "assess/index.html"></A><BR>
+<font size=-3>Arch <a href="assess/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "assess/index.html">
+    Assess
+  </A></B> - <em>
+    Student assessment system
+  </em><br><font color="2C0000">Developed this system for the Computing Workshop assessment
+    requirements.</font>
+<font color="2C0000">Will incorporate in the <a href="http://frdcsa.onshore.net/frdcsa/internal/fieldgoal/index.html">fieldgoal</a> system.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "audience/index.html"></A><BR>
+<font size=-3>Arch <a href="audience/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "audience/index.html">Audience</A></B> - <em>
+    Anonymous communication implementation
+  </em><br><font color="210000"><a href="http://frdcsa.onshore.net/frdcsa/internal/audience/index.html">audience</a> indirectly implements a system to communicate anonymously for
+    people  who   are  in  need  of  maintaining   contact  but  screening
+    communications.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "bard/index.html"></A><BR>
+<font size=-3>Arch <a href="bard/arch.gif">[GIF]</a><br>
+Packages <a href="../packages/bard_0.1-1_i386.deb">[DEB] </a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "bard/index.html">
+    Bard
+  </A></B> - <em>
+    General tool for manipulating words and wordplay.
+  </em><br><font color="430000">Originally written as a poetry composition system, <a href="http://frdcsa.onshore.net/frdcsa/internal/bard/index.html">bard</a> has
+    basically been used for its ability to find the right word or
+    phrase that satisfies many constraints.</font>
+<font color="430000">It can do many simple
+    things (often by using external programs), such as compute
+    anagrams, generate acronyms, generate rhyms, and select words by
+    syntactic/semantic constraints.</font>
+<font color="430000">Eventually plan to add many more
+    features, such as connation, new word creation, more language
+    modelling, CSP, etc.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "boss/index.html"></A><BR>
+<font size=-3>Arch <a href="boss/arch.gif">[GIF]</a><br>
+Packages <a href="../packages/boss_0.1-1_i386.deb">[DEB] </a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "boss/index.html">BOSS</A></B> - <em>
+    Software engineering manager for project management
+  </em><br><font color="0E0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/boss/index.html">boss</a> coordinates the software development of our internal
+    codebases, the applications that we are writing to either
+    effectively glue together external codebases as in most cases or
+    as mostly independent projects (like <a href="http://frdcsa.onshore.net/frdcsa/internal/gourmet/index.html">gourmet</a>).</font>
+<font color="0E0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/boss/index.html">boss</a> converses
+    with <a href="http://frdcsa.onshore.net/frdcsa/internal/architect/index.html">architect</a> to coordinate development of icodebases with
+    respect to overall goals, and <a href="http://frdcsa.onshore.net/frdcsa/internal/radar/index.html">radar</a> and Machiavelli to provide a
+    project development simulator for use in reasoning about other
+    projects, and in general, to answer software development
+    questions.</font>
+<font color="0E0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/boss/index.html">boss</a> also automates many of the aspects of writing
+    codebases.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "brainleach/index.html"></A><BR>
+<font size=-3>Arch <a href="brainleach/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "brainleach/index.html">
+    BrainLeach
+  </A></B> - <em>
+    Records users' work on various projects
+  </em><br><font color="4B0000">The point  of <a href="http://frdcsa.onshore.net/frdcsa/internal/brainleach/index.html">brainleach</a> is to  record the user's  work on certain
+    projects.</font>
+<font color="4B0000">By recording <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a> the commands, grouping them and asking
+    the user to document what they are doing with the commands.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "broker/index.html"></A><BR>
+<font size=-3>Arch <a href="broker/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "broker/index.html">
+    Broker
+  </A></B> - <em>
+    System to track material/informational demand
+  </em><br><font color="1C0000">The <a href="http://frdcsa.onshore.net/frdcsa/internal/broker/index.html">broker</a> system is a buy/sell interface which models clients and
+    suppliers.</font>
+<font color="1C0000">It is mainly  intended for  use in  managing personal
+    property,  but can  be applied  to other  domains.</font>
+<font color="1C0000">Core features
+    include the  ability to  determine whether a  purchase or  sale is
+    justified based on its  necessity to <a href="http://frdcsa.onshore.net/frdcsa/internal/pse/index.html">pse</a>/<a href="http://frdcsa.onshore.net/frdcsa/internal/verber/index.html">verber</a>.</font>
+<font color="1C0000">It also attempts
+    to  record and  learn from  experience as  to what  purchases were
+    justified.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "busroute/index.html"></A><BR>
+<font size=-3>Arch <a href="busroute/arch.gif">[GIF]</a><br>
+Packages <a href="../packages/busroute_0.4-1_i386.deb">[DEB] </a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "busroute/index.html">BusRoute</A></B> - <em>
+    Command line bus planner
+  </em><br><font color="1E0000">Effective bus route planner module that interfaces with the <a href="http://frdcsa.onshore.net/frdcsa/internal/verber/index.html">verber</a>
+    planner.</font>
+<font color="1E0000">Provides support for two basic kinds of actions,
+    boarding, staying on, and exiting a bus, and walking between
+    locations (currently only bus activities implemented.)</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "canvasser/index.html"></A><BR>
+<font size=-3>Arch <a href="canvasser/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "canvasser/index.html">
+    Canvasser
+  </A></B> - <em>
+    Make neighborhood street lists for petitioning
+    
+  </em><br><font color="1D0000">Initial  requirements:  Takes  a   street  address  as  input  and
+    generates a list  of voters living on <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a>  streets living within a
+    certain radius  of that street address.</font>
+<font color="1D0000">Probably  uses free TIGER
+    mapping data and voter database  from the county (tells you how to
+    get this list as well).</font>
+<font color="1D0000">However we plan on allowing for mulitple
+    circulators   (petitioners)   and   doing   travelling   salesmen/
+    coordinated  route planning.</font>
+<font color="1D0000">Also <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a>  political causes  must be
+    approved by our Machiavelli system.</font>
+<font color="1D0000">Just kidding.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "classify/index.html"></A><BR>
+<font size=-3>Arch <a href="classify/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "classify/index.html">Classify</A></B> - <em>
+    Classification services
+  </em><br><font color="340000">Before our project became committed to 100% FOI, we planned to
+    <a href="http://frdcsa.onshore.net/frdcsa/internal/classify/index.html">classify</a> various parts of the system.</font>
+<font color="340000">Now <a href="http://frdcsa.onshore.net/frdcsa/internal/classify/index.html">classify</a> is mainly used
+    to remove personal data from published data.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "clear/index.html"></A><BR>
+<font size=-3>Arch <a href="clear/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "clear/index.html">CLEAR</A></B> - <em>
+    Computer LEarning ARchitecture
+  </em><br><font color="1F0000">Intelligent  Tutoring  System  for distance  learning.</font>
+<font color="1F0000">Maintains
+    reading lists for  content areas, automatically determines reading
+    list dependencies.</font>
+<font color="1F0000">Uses TTS  to read documents.</font>
+<font color="1F0000">Records user's
+    attention  during  reading.</font>
+<font color="1F0000">Generates  tests  from documents  for
+    placement or  assessment.</font>
+<font color="1F0000">Eventually, expect  to integrate webcam
+    based eye-tracking system, so that records of what has been read</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "coauthor/index.html"></A><BR>
+<font size=-3>Arch <a href="coauthor/arch.gif">[GIF]</a><br>
+Packages <a href="../packages/coauthor_0.1-1_i386.deb">[DEB] </a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "coauthor/index.html">
+    CoAuthor
+  </A></B> - <em>
+    Automated synthesis of books from domain texts
+  </em><br><font color="280000">Integration  of many smaller  domain texts  into a  coherent and
+      readable paper  is no  small task.</font>
+<font color="280000">The  process is  also useful
+      beyond  journal  entry  composition.</font>
+<font color="280000">It  is  useful  in  both
+      persuasive and informative contexts as well.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "code-monkey/index.html"></A><BR>
+<font size=-3>Arch <a href="code-monkey/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "code-monkey/index.html">
+    Code Monkey
+    
+  </A></B> - <em></em><br><font color="140000">As a sign of the progress of our systems, we now have more or less
+    a need for an "automated programmer" (or Debian maintainer).</font>
+<font color="140000">This
+    is because, much in the  same way that CMU's gaze estimator builds
+    on  their  stable  platform  for Active  Appearance  Models  which
+    accurately model  head position, we now have  a large architecture
+    for manipulating and working on packages.</font>
+<font color="140000">This allows us to mount
+    a "<a href="http://frdcsa.onshore.net/frdcsa/internal/code-monkey/index.html">code-monkey</a>",  i.e. gives  us the setting  in which  to develop
+    tools which  can be  applied to improving  what already  exists in
+    terms of  automated methods for dealing with  code.</font>
+<font color="140000">Therefore the
+    <a href="http://frdcsa.onshore.net/frdcsa/internal/code-monkey/index.html">code-monkey</a> system is appropriate.</font>
+<font color="140000">It fits in naturally with the
+    existing hierarchy - <a href="http://frdcsa.onshore.net/frdcsa/internal/radar/index.html">radar</a> predator <a href="http://frdcsa.onshore.net/frdcsa/internal/architect/index.html">architect</a> <a href="http://frdcsa.onshore.net/frdcsa/internal/boss/index.html">boss</a> (<a href="http://frdcsa.onshore.net/frdcsa/internal/code-monkey/index.html">code-monkey</a>).</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "corpus/index.html"></A><BR>
+<font size=-3>Arch <a href="corpus/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "corpus/index.html">Corpus</A></B> - <em></em><br><font color="1C0000">Simple system to aid in analyzing <a href="http://frdcsa.onshore.net/frdcsa/internal/corpus/index.html">corpus</a> of data, since this has
+    become a recurring problem.</font>
+<font color="1C0000">The immediate application of this is
+    applying text clustering and machine learning techniques to the
+    <a href="http://frdcsa.onshore.net/frdcsa/internal/unilang/index.html">unilang</a> log files.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "crawler/index.html"></A><BR>
+<font size=-3>Arch <a href="crawler/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "crawler/index.html">Crawler</A></B> - <em>
+    Indescript focused crawler for package retrieval
+  </em><br><font color="320000">Due to the  relative complexity of <a href="http://frdcsa.onshore.net/frdcsa/internal/radar/index.html">radar</a>, <a href="http://frdcsa.onshore.net/frdcsa/internal/seeker/index.html">seeker</a>  is being created
+    first as  a separate  project and then  integrated as  the focused
+    crawling system for  <a href="http://frdcsa.onshore.net/frdcsa/internal/radar/index.html">radar</a>.</font>
+<font color="320000">The point of <a href="http://frdcsa.onshore.net/frdcsa/internal/seeker/index.html">seeker</a>  is to simply try
+    to find and <a href="http://frdcsa.onshore.net/frdcsa/internal/classify/index.html">classify</a> as many project pages as possible.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "critic/index.html"></A><BR>
+<font size=-3>Arch <a href="critic/arch.gif">[GIF]</a><br>
+Packages <a href="../packages/critic_0.1-1_i386.deb">[DEB] </a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "critic/index.html">CRITIC</A></B> - <em>
+    Contemplating Relations Interactively To Improve Connections
+  </em><br><font color="2A0000">The <a href="http://frdcsa.onshore.net/frdcsa/internal/critic/index.html">critic</a> system is a framework to review entries for suitability
+    to a  given goal or  task.</font>
+<font color="2A0000">It allows  the user to  categorize and
+    rate  the entries.</font>
+<font color="2A0000">At each  point the  system determines  on the
+    basis of ratings and categorization whether the user should review
+    items they have already seen, rate cached items they have not, and
+    whether to retrieve more entries in specific categories.</font>
+<font color="2A0000">This can
+    be  interfaced  to   capabilities  management  and  <a href="http://frdcsa.onshore.net/frdcsa/internal/radar/index.html">radar</a>,  recipe
+    reviewing,  perl module  reviewing, sources.list  entry reviewing,
+    and so on.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "cso/index.html"></A><BR>
+<font size=-3>Arch <a href="cso/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "cso/index.html">
+    CSO
+  </A></B> - <em>
+    Comprehensive Software Ontology
+  </em><br><font color="300000">The result of spidering and information extraction in the domain
+    of software applications.</font>
+<font color="300000">A subsystem of <a href="http://frdcsa.onshore.net/frdcsa/internal/radar/index.html">radar</a> that integrates
+    online software metadata sites.</font>
+<font color="300000">Defines a metadata standard for
+    the <a href="http://frdcsa.onshore.net/frdcsa/internal/myfrdcsa/index.html">myfrdcsa</a> and provides search functions of metadata
+    information.</font>
+<font color="300000">Eventually these capabilities will join with others
+    such as spidering and sophisticated focused web searching and
+    classification techniques for actual web-mining of software and
+    issuing automatic retrieval tactics.</font>
+<font color="300000">It handles reputation
+    management of online sources.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "diamond/index.html"></A><BR>
+<font size=-3>Arch <a href="diamond/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "diamond/index.html">Diamond</A></B> - <em>
+    Dynamically generates user-interfaces. 
+  </em><br><font color="2A0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/diamond/index.html">diamond</a> is a system for generating user interfaces.</font>
+<font color="2A0000">The basic notion
+    is that UIs are generated to modify data structures and program states
+    in a repeatable yet customizable fashion.</font>
+<font color="2A0000">Expert systems and KBs for
+    generating interfaces, like the MayaViz project to the same effect.</font>
+<font color="2A0000">Interfaces for editting arbitrary data structures.</font>
+<font color="2A0000">Cognitive
+    modelling of the user to enhance the effectiveness of the interface.</font>
+<font color="2A0000">Dynamic generation of the interface.</font>
+<font color="2A0000">Device specific target interface
+    generation.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "digilib/index.html"></A><BR>
+<font size=-3>Arch <a href="digilib/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "digilib/index.html">
+    DigiLib
+    
+  </A></B> - <em></em><br>
+    Personal Digital Library 
+    
+  </FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "disciple/index.html"></A><BR>
+<font size=-3>Arch <a href="disciple/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "disciple/index.html">Disciple</A></B> - <em>
+    Simple, completeable checklists
+  </em><br><font color="0E0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/disciple/index.html">disciple</a> consists of a system of checklists that the user can
+    follow.</font>
+<font color="0E0000">Learning is applied to the singular task of completing
+    the checklist (baby steps), rather than the multiple tasks on the
+    checklist, reducing the number of parameters.</font>
+<font color="0E0000">A library of
+    checklists aids the user in completing common tasks.</font>
+<font color="0E0000">A parallel
+    should be drawn to the comprehensive checklists used by pilots.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "ems/index.html"></A><BR>
+<font size=-3>Arch <a href="ems/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "ems/index.html">
+    EMS
+  </A></B> - <em>
+    Model's the user's experience.
+  </em><br><font color="500000">This system is very similar to a capabilities management system,
+    except it employs specialized tools for human learning.</font>
+<font color="500000">See
+    Mindhacks book for assistance.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "ender/index.html"></A><BR>
+<font size=-3>Arch <a href="ender/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "ender/index.html">
+    Ender
+  </A></B> - <em>
+    Ender wins all the games
+  </em><br><font color="7E0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/ender/index.html">ender</a> is a game playing system.</font>
+<font color="7E0000">It is related to the General
+      Games competition or something to that effect at Stanford.</font>
+<font color="7E0000">It
+      is an attempt at apply real AI techniques to game playing.</font>
+<font color="7E0000">For
+      instance, minimax search is regarded as too simplistic, by
+      reason that it cannot <a href="http://frdcsa.onshore.net/frdcsa/internal/perform/index.html">perform</a> positional analysis (though it can
+      be used in positional analysis).</font>
+<font color="7E0000">We are developing a positional
+      analysis system.</font>
+<font color="7E0000">I wrote a prolog program that can do chess analysis.</font>
+<font color="7E0000">I
+      encoded some definitions from "My System" in order to allow it
+      to be able to answer general analytic queries.</font>
+<font color="7E0000">I have only
+      implemented a few basic queries but the representation is
+      complete.</font>
+<font color="7E0000">This methodology applies to Go and others, and is
+      provably superior to brute-force.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "evangelist/index.html"></A><BR>
+<font size=-3>Arch <a href="evangelist/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "evangelist/index.html">
+    Evangelist
+  </A></B> - <em>
+    Presents and discusses FRDCSA ideology and technology
+  </em><br><font color="310000">One function is to create a special purpose conversational <a href="http://frdcsa.onshore.net/frdcsa/internal/agent/index.html">agent</a>
+      for use in presenting the project to interested individuals and
+      soliciting feedback and recommendations.</font>
+<font color="310000">This effort relates to
+      creating a general NL interface to FRDCSA.</font>
+<font color="310000">(Such as using the
+      OAA nl module, TextMap, dialog clarification etc.  as components
+      with some kind of unifying cont.)</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "event-log/index.html"></A><BR>
+<font size=-3>Arch <a href="event-log/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "event-log/index.html">
+    Event Log
+  </A></B> - <em>
+    A system for recording events
+  </em><br><font color="320000">Event log is a system for recording events and provides many
+    functions for assisting the user in visualizing and analyzing the
+    relationships between events.</font>
+<font color="320000">It also handles fitlering events
+    and sending them to other agents using <a href="http://frdcsa.onshore.net/frdcsa/internal/audience/index.html">audience</a> for visualization
+    with <a href="http://frdcsa.onshore.net/frdcsa/internal/problemspace/index.html">problemspace</a>.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "event-system/index.html"></A><BR>
+<font size=-3>Arch <a href="event-system/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "event-system/index.html">Event System</A></B> - <em>
+    FRDCSA calendaring application
+  </em><br><font color="1C0000">An  event  module  for  <a href="http://frdcsa.onshore.net/frdcsa/internal/verber/index.html">verber</a> that  processes  events,  lectures,
+    colloquia  and seminars.</font>
+<font color="1C0000">Warns user  of approaching  events, and
+    prevents events from being scheduled over by other actions without
+    adjustable autonomy.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "fieldgoal/index.html"></A><BR>
+<font size=-3>Arch <a href="fieldgoal/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "fieldgoal/index.html">
+    FieldGoal
+  </A></B> - <em>
+    A temporary Goal/Interest/Ability system for group coordination
+  </em><br><font color="220000">In developing <a href="http://frdcsa.onshore.net/frdcsa/internal/job-search/index.html">job-search</a>,  it became <a href="http://frdcsa.onshore.net/frdcsa/internal/clear/index.html">clear</a> that when  we wanted to
+    model  the user's  skills, <a href="http://frdcsa.onshore.net/frdcsa/internal/clear/index.html">clear</a>  could only  model what  they had
+    read, not  actually done.</font>
+<font color="220000">And  one cannot claim  to know
+    something  by simply  reading without  demonstrable  experience to
+    verify their understanding.</font>
+<font color="220000">The requirement for better modelling
+    of the user's development experience  also ties in nicely with our
+    recent  initiative towards project  internships.</font>
+<font color="220000">So  <a href="http://frdcsa.onshore.net/frdcsa/internal/fieldgoal/index.html">fieldgoal</a> is
+    again a planning  module that interfaces with a  growing number of
+    systems -  <a href="http://frdcsa.onshore.net/frdcsa/internal/architect/index.html">architect</a>, <a href="http://frdcsa.onshore.net/frdcsa/internal/job-search/index.html">job-search</a>, <a href="http://frdcsa.onshore.net/frdcsa/internal/clear/index.html">clear</a>, <a href="http://frdcsa.onshore.net/frdcsa/internal/meeting/index.html">meeting</a>,  <a href="http://frdcsa.onshore.net/frdcsa/internal/verber/index.html">verber</a>, etc.  -
+    to   achieve   modelling  of   user   experience  and   interests,
+    determination  of  suitable  projects,  and  tracking  of  project
+    status.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "formalforum/index.html"></A><BR>
+<font size=-3>Arch <a href="formalforum/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "formalforum/index.html">
+    FormalForum
+  </A></B> - <em>
+    Advanced news and discussion forum
+  </em><br><font color="290000"><a href="http://frdcsa.onshore.net/frdcsa/internal/formalforum/index.html">formalforum</a> is a news summarization system that works as live
+    intelligence feed / situational awareness system.</font>
+<font color="290000">It uses various
+    technologies, like collaborative filtering, classification, etc,
+    to determine which stories it has collected from its sources the
+    user would be interested in.</font>
+<font color="290000">Ultimately we would like to
+    integrate <a href="http://frdcsa.onshore.net/frdcsa/internal/reasonbase/index.html">reasonbase</a> as a backend.</font>
+<font color="290000">Similar to
+    http://newsblaster.cs.columbia.edu/,
+    http://lada.si.umich.edu:8080/clair/nie1/nie.cgi, vivisimo, etc.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "frdcsa-el/index.html"></A><BR>
+<font size=-3></font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "frdcsa-el/index.html">FRDCSA-el</A></B> - <em>
+    FRDCSA Emacs interface
+  </em><br><font color="0E0000">This  is  a  collection  of  utilities to  make  the  FRDCSA  more
+    accessible in Emacs.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "frdcsa-reference/index.html"></A><BR>
+<font size=-3>Arch <a href="frdcsa-reference/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "frdcsa-reference/index.html">FRDCSA Reference</A></B> - <em></em><br><font color="340000">A large collection of our media which either promotes the FRDCSA
+    or justifies design choices of the FRDCSA.</font>
+<font color="340000">It archives the
+    project documentation, deliverables, and history.</font>
+<font color="340000">Also included
+    will be a translation of the <a href="http://frdcsa.onshore.net/frdcsa/internal/frdcsa-reference/index.html">frdcsa-reference</a> for neurotypicals.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "frdcsal/index.html"></A><BR>
+<font size=-3>Arch <a href="frdcsal/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "frdcsal/index.html">
+    FRDCSAL
+  </A></B> - <em>
+    FRDCSA Programming Language
+  </em><br><font color="500000"><a href="http://frdcsa.onshore.net/frdcsa/internal/frdcsal/index.html">frdcsal</a>  consists of  a  programming language  almost entirely  on
+    natural  language.</font>
+<font color="500000">The  system  grows as  it  tries to  interpret
+    "programs" of the extension .ai.</font>
+<font color="500000">The EBNF of the language is:</font>
+<font color="500000">Text := sigma star
+    Function := {Predicate} '(' {Text} ')'
+    Predicate := {Text}</font>
+<font color="500000">The semantics are  almost those of natural language.</font>
+<font color="500000">There is no
+    central cohesion to  the semantics.</font>
+<font color="500000">The executor is  written in a
+    combination  of <a href="http://frdcsa.onshore.net/frdcsa/internal/frdcsal/index.html">frdcsal</a> and  Perl.</font>
+<font color="500000">A  translation memory  is kept
+    between  <a href="http://frdcsa.onshore.net/frdcsa/internal/frdcsal/index.html">frdcsal</a>   and  Perl,  and  whenever   the  system  cannot
+    adequately  execute code,  it  asks the  programmer supervisor  to
+    resolve the problem by  either deciding the case (through argument
+    if necessary) or drafting more code to implement that.</font>
+<font color="500000">Needless to say the code is, um, self-documenting, hehe.</font>
+<font color="500000">The obvious application  is that as functionality is  added to the
+    system, it will  be able to parse almost  arbitrary data to assist
+    it in  its search.</font>
+<font color="500000">The way in  which the executor  is developed,
+    based on techniques for  interpretation rooted in the hard science
+    of the programming  gives it its tremendous power.</font>
+<font color="500000">.ai files can
+    include Perl for simplicity.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "freekbs/index.html"></A><BR>
+<font size=-3>Arch <a href="freekbs/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "freekbs/index.html">
+    FreeKBS
+  </A></B> - <em>
+    A free replacement for tools like OpenCyc and Powerloom
+  </em><br><font color="500000">A knowledge based system that is very well integrated with our
+    tools.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "fweb/index.html"></A><BR>
+<font size=-3>Man <a href="fweb/manual.ps">[PS]</a><br></font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "fweb/index.html">FWeb</A></B> - <em>
+    Project web visualization software
+  </em><br><font color="110000">The FRDCSA  is a forward-thinking organization rising  to meet the
+    challenges   of  the   21st   century's  unprecidented   technical
+    achievements   and  opportunities.</font>
+<font color="110000"><a href="http://frdcsa.onshore.net/frdcsa/internal/fweb/index.html">fweb</a>  supports   the  public
+    relations  and  functional requirements  of  the organization,  in
+    support of its mission  to effectively solve wide-ranging problems
+    through  contributions  to  the  free  and  open  source  software
+    movement.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "generix/index.html"></A><BR>
+<font size=-3>Arch <a href="generix/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "generix/index.html">Generix</A></B> - <em></em><br><font color="000000">The <a href="http://frdcsa.onshore.net/frdcsa/internal/generix/index.html">generix</a> system is a system for remastering Knoppix and Knoppix
+    clones to suit a particular purpose.</font>
+<font color="000000">For instance, if you want to
+    make  a  DVD  distribution   of  the  FRDCSA,  with  <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a>  packages
+    installed.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "gourmet/index.html"></A><BR>
+<font size=-3>Man <a href="gourmet/manual.ps">[PS]</a><br>Arch <a href="gourmet/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "gourmet/index.html">Gourmet</A></B> - <em>
+    Eat healthy, pass it on!
+  </em><br><font color="300000"><a href="http://frdcsa.onshore.net/frdcsa/internal/gourmet/index.html">gourmet</a>  is  the  belated  response to  Nikita  Khrushchev's  1959
+    Kitchen Debate challenge: "Don't you have a machine that puts food
+    into  the mouth  and pushes  it down?"</font>
+<font color="300000">Well, not  quite,  but it
+    doesn't  get any easier  than this.</font>
+<font color="300000">It is  a very  user friendly
+    system for  improving people's health and  nutrition.</font>
+<font color="300000">It provides
+    suggestions  and resources  for healthy  meals  non-invasively and
+    without placing any  burden on the user.</font>
+<font color="300000">It has  been shown to be
+    able  to achieve  enormous  time (5x),  cost  (4x), nutrition  and
+    palatability improvements, especially when using its advanced meal
+    planning capabilities.</font>
+<font color="300000">There  are numerous technical details that
+    make  it  very useful,  especially  for  the  target audiences  of
+    developing countries,  people of <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a> nations  in poverty, computer
+    users,  people with  obesity and  other medical  reasons,  such as
+    allergies, kidney disease,  diabetes, etc.  Ironically, <a href="http://frdcsa.onshore.net/frdcsa/internal/gourmet/index.html">gourmet</a> is
+    often dismissed out of hand as  too hard to use, simply BECAUSE it
+    is a meal planner.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "gourmetjr/index.html"></A><BR>
+<font size=-3>Arch <a href="gourmetjr/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "gourmetjr/index.html">
+    GourmetJr
+  </A></B> - <em>
+    Lightweight prototype version of Gourmet
+  </em><br><font color="1B0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/gourmet/index.html">gourmet</a>  is a  sophisticated  application, and  therefore we  have
+    developed  a  lightweight prototype  system  called <a href="http://frdcsa.onshore.net/frdcsa/internal/gourmetjr/index.html">gourmetjr</a>  (to
+    avoid namespace  conflicts) to implement  various features without
+    having  to  weight for  the  completion  of  the full  version  of
+    prerequisite features.</font>
+<font color="1B0000">For instance,  we don't have to finish the
+    refactoring of <a href="http://frdcsa.onshore.net/frdcsa/internal/shops/index.html">shops</a> in order to have inventory.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "job-search/index.html"></A><BR>
+<font size=-3>Arch <a href="job-search/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "job-search/index.html">JobSearch</A></B> - <em>
+    Job search assistant
+  </em><br><font color="250000">JobSearch  performs   many  of   the  common  tasks   required  in
+    negotiating  jobs.</font>
+<font color="250000">It helps  users  write  their resumes,  using
+    resume xml,  interfacing with  <a href="http://frdcsa.onshore.net/frdcsa/internal/audience/index.html">audience</a> and Machiavelli,  it helps
+    the user manage job opportunities, and aids in many other tasks in
+    order to  make job searching  a much less  trying and a  much more
+    sure  process.</font>
+<font color="250000">Moreover,  it  provides a  selective advantage  to
+    people who use open source software.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "kbfs/index.html"></A><BR>
+<font size=-3>Arch <a href="kbfs/arch.gif">[GIF]</a><br>
+Packages <a href="../packages/kbfs_0.1-1_i386.deb">[DEB] </a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "kbfs/index.html">KBFS</A></B> - <em>
+    Knowledge-Based File System
+  </em><br><font color="0E0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/kbfs/index.html">kbfs</a> stands for knowledge based file system.</font>
+<font color="0E0000">It is wrong to call it a
+    file  system,  but it  has  a  lot of  features,  and  maybe could  be
+    eventually made into a virtual file system.</font>
+<font color="0E0000">Pack is  a subsystem for packing  files onto DVDs.</font>
+<font color="0E0000">Mainly  this is an
+    exercise for  me in Object Oriented  Perl programming.</font>
+<font color="0E0000">Its  a fun and
+    manageable domain.</font>
+<font color="0E0000">The goal is to efficienty and orderly pack a given
+    media with the right directories.</font>
+<font color="0E0000">Print nice labels, with barcodes for CD's/DVD's based on contents, for
+    reminders and correlation with the media relations part of <a href="http://frdcsa.onshore.net/frdcsa/internal/kbfs/index.html">kbfs</a>.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "kmax/index.html"></A><BR>
+<font size=-3>Arch <a href="kmax/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "kmax/index.html">
+    KMax
+  </A></B> - <em>
+    Enhanced Emacs
+  </em><br><font color="C60000"><a href="http://frdcsa.onshore.net/frdcsa/internal/kmax/index.html">kmax</a> contains several enhancements to Emacs.</font>
+<font color="C60000">There is the
+    possibility of using existing Emacs or rewriting parts or <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a> of
+    it.</font>
+<font color="C60000">Example features include -Programming By Demonstration,
+    +recording <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a> sessions -(semantically), -remapping keys based on
+    coding theory and mnemonics, <a href="http://frdcsa.onshore.net/frdcsa/internal/opencyc-el/index.html">opencyc-el</a> integration, and an AI
+    that uses <a href="http://frdcsa.onshore.net/frdcsa/internal/kmax/index.html">kmax</a> as the basis of its visual system.</font>
+<font color="C60000"><a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a> of these
+    are partially complete except for the programaming by
+    demonstration.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "learner/index.html"></A><BR>
+<font size=-3>Arch <a href="learner/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "learner/index.html">
+    Learner
+  </A></B> - <em>
+    Implements various learning methods.
+  </em><br><font color="330000">The point  of <a href="http://frdcsa.onshore.net/frdcsa/internal/learner/index.html">learner</a> is  so that learning some  function requires
+    only using  the <a href="http://frdcsa.onshore.net/frdcsa/internal/learner/index.html">learner</a> library.</font>
+<font color="330000">Each function to be  learned is
+    given a name, (generally an  extension of the current perl module)
+    so that the program need not specify storage files, etc.  The type
+    of <a href="http://frdcsa.onshore.net/frdcsa/internal/learner/index.html">learner</a> to be used is  passed as an argument, and then calls to
+    the specific type of learning  functions may be used.</font>
+<font color="330000">As a bonus,
+    <a href="http://frdcsa.onshore.net/frdcsa/internal/learner/index.html">learner</a> attempts to automatically determine which <a href="http://frdcsa.onshore.net/frdcsa/internal/learner/index.html">learner</a> is to be
+    used.</font>
+<font color="DB0000">Maybe should also <a href="http://frdcsa.onshore.net/frdcsa/internal/perform/index.html">perform</a> memoization using <a href="http://frdcsa.onshore.net/frdcsa/internal/freekbs/index.html">freekbs</a>.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "manager/index.html"></A><BR>
+<font size=-3>Arch <a href="manager/arch.gif">[GIF]</a><br>
+Packages <a href="../packages/manager_0.1-1_i386.deb">[DEB] </a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "manager/index.html">Manager</A></B> - <em>
+    HCI-based task management, cognitive prosthesis
+  </em><br><font color="240000">The user awareness component that is responsible for assisting the
+    user to  operate on a  reasonable schedule.</font>
+<font color="240000">It  communicates with
+    several other  systems to synthesize highly  logical schedules and
+    itineraries.</font>
+<font color="240000">And most importantly,  it monitors the user's state:
+    where  they are,  what they  are  doing, what  their physical  and
+    psychological  conditions  are, and  so  forth.</font>
+<font color="240000">It is  primarily
+    responsible  for making  the  user aware  of their  environmental,
+    needs and responsibilities.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "mantra/index.html"></A><BR>
+<font size=-3>Arch <a href="mantra/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "mantra/index.html">
+    MANTRA
+  </A></B> - <em>
+    Machine translation of documentation into many languages
+  </em><br><font color="290000">Many projects are  in need of translating their  manual into other
+    languages.</font>
+<font color="290000">Recent  private conversations with  authorities on the
+    subject suggest  that existing machine translation  tools would be
+    well suited to  the task.</font>
+<font color="290000">There are a great  variety of tools out
+    there  and this project  coordinates with  the other  projects out
+    there,  ultimatedly providing a  proactive translation  service by
+    automatically translating technical manuals for codebases, systems
+    and projects  located by <a href="http://frdcsa.onshore.net/frdcsa/internal/radar/index.html">radar</a> and relaying  these translations to
+    upstream.</font>
+<font color="290000"><a href="http://frdcsa.onshore.net/frdcsa/internal/fweb/index.html">fweb</a> will  host automatically  generated  materials so
+    that upstream may download them.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "meeting/index.html"></A><BR>
+<font size=-3>Arch <a href="meeting/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "meeting/index.html">Meeting</A></B> - <em>
+    Software to govern meetings
+  </em><br><font color="160000">The software to govern meetings is a useful system for encoding
+      what is to be expected in a <a href="http://frdcsa.onshore.net/frdcsa/internal/meeting/index.html">meeting</a>.</font>
+<font color="160000">We take Roberts Rules of
+      Order etc, as the basis for a program which mediates meetings,
+      and so forth.</font>
+<font color="160000">We use audio and visual recording, as well as
+      automatic projection of relevant information, to make the entire
+      thing automatic and not dependent on the memory of people.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "mmi/index.html"></A><BR>
+<font size=-3></font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "mmi/index.html">
+    MMI
+  </A></B> - <em>
+    Implement various high-bandwidth interfaces
+  </em><br><font color="310000">There are several planned interfaces.</font>
+<font color="310000">The basic model is that the
+    computer has a high-bandwidth modality (video) for example, along
+    with a sophisticated program for computer vision pattern
+    detection, such as emotion recognition.</font>
+<font color="310000">The output of this
+    recognition is used to create a feedback loop by displaying images
+    or text thought to be provactive in some respect to the user.</font>
+<font color="310000">Overtime a model is created, with the hope that interaction will
+    increase.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "mush/index.html"></A><BR>
+<font size=-3>Arch <a href="mush/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "mush/index.html">
+    MUSH
+  </A></B> - <em>
+    Multi-strategy procedural and QA help system
+  </em><br><font color="240000">A  open system  procedural knowledge  base and  question answering
+    assistant to software configuration problems.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "myfrdcsa/index.html"></A><BR>
+<font size=-3>Arch <a href="myfrdcsa/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "myfrdcsa/index.html">MyFRDCSA</A></B> - <em>
+    Comprehensive Software Ontology
+  </em><br><font color="0F0000">The <a href="http://frdcsa.onshore.net/frdcsa/internal/myfrdcsa/index.html">myfrdcsa</a> system implements our ontology of software, in
+    addition to being a leading project which coordinates other
+    projects.</font>
+<font color="0F0000">Its role is mainly conceptual at this point as the key
+    ontology systems are not yet in place.</font>
+<font color="0F0000">Currently it uses an
+    OO-Perl architecture which represents projects and systems, and
+    provides functionality that is too general for any of the current
+    subsystems.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "nlp/index.html"></A><BR>
+<font size=-3>Arch <a href="nlp/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "nlp/index.html">
+    NLP
+  </A></B> - <em>
+    Collection of NLP systems
+  </em><br><font color="DB0000">In order to store some other systems I am developing, decided to
+    build this system.</font>
+<font color="DB0000">Obviously highlights the present inadequacies
+    of the structure of the project.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "ocra/index.html"></A><BR>
+<font size=-3>Arch <a href="ocra/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "ocra/index.html">
+    OCRA
+  </A></B> - <em>
+    Wrapper and post-processer for free OCR systems
+  </em><br><font color="190000"><a href="http://frdcsa.onshore.net/frdcsa/internal/ocra/index.html">ocra</a> removes dependence on commercial OCR software.</font>
+<font color="190000"><a href="http://frdcsa.onshore.net/frdcsa/internal/ocra/index.html">ocra</a> enhances
+    existing  open   source  OCR   systems  via  post   processing  of
+    recognition results, employing a  statistical language model and a
+    word  similarity  scoring  mechanism.</font>
+<font color="190000">As  well,  it  uses  ccp,
+    pdftopbm, and  gocr to  create an end  to end OCR  system suitable
+    previously unavailable for input to such systems <a href="http://frdcsa.onshore.net/frdcsa/internal/clear/index.html">clear</a>.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "opencyc-common/index.html"></A><BR>
+<font size=-3>Arch <a href="opencyc-common/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "opencyc-common/index.html">OpenCyc-common</A></B> - <em>
+    OpenCyc utilities
+  </em><br><font color="250000">These are  tools to make  sure that opencyc is  operating smoothly
+    with the Debian environment.</font>
+<font color="250000">Currently this simply consists of a
+    <a href="http://frdcsa.onshore.net/frdcsa/internal/unilang/index.html">unilang</a> <a href="http://frdcsa.onshore.net/frdcsa/internal/agent/index.html">agent</a>  wrapper that  proxies between OpenCyc  and <a href="http://frdcsa.onshore.net/frdcsa/internal/unilang/index.html">unilang</a>.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "opencyc-el/index.html"></A><BR>
+<font size=-3>Arch <a href="opencyc-el/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "opencyc-el/index.html">OpenCyc-el</A></B> - <em>
+    OpenCyc Emacs major mode
+  </em><br><font color="0E0000">A specialized  Emacs major mode  for CycL and SubL,  the languages
+    for the OpenCyc common sense knowledge base.</font>
+<font color="0E0000">Aims to create a deep
+    channel between Emacs and OpenCyc.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "packager/index.html"></A><BR>
+<font size=-3>Arch <a href="packager/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "packager/index.html">Packager</A></B> - <em>
+    Semi-automatically package sources
+  </em><br><font color="300000">An  architecture for automatically  packaging codebases  for Linux
+    packaging  systems, like  Debian's deb  format, RedHat's  rpm, and
+    Slackware's tgz.</font>
+<font color="300000">There are a  number of strategies that we use to
+    enable <a href="http://frdcsa.onshore.net/frdcsa/internal/packager/index.html">packager</a> to package codebases that have been discovered and
+    retrieved  by  <a href="http://frdcsa.onshore.net/frdcsa/internal/radar/index.html">radar</a>.</font>
+<font color="300000">Up  until  now  we  have simply  hand-coded
+    algorithms in OO Perl.</font>
+<font color="300000">But obviously, once we find more organized
+    methods,  these  will  gradually  replace  the  current  throwaway
+    scripts.</font>
+<font color="300000">For  example,  we  have  considered  is  writing  NPDDL
+    planning domains.</font>
+<font color="300000">A key feature is that <a href="http://frdcsa.onshore.net/frdcsa/internal/packager/index.html">packager</a> is able to learn
+    from the user  in order to increase the class  of codebases it can
+    handle.</font>
+<font color="300000">And,  just recently  we  have  considered that  existing
+    packages, along  with their  original codebase sources,  provide a
+    wealth  of information  that could  be  used as  input to  machine
+    learning systems.</font>
+<font color="300000">Package maintainence is also  within the scope
+    of the <a href="http://frdcsa.onshore.net/frdcsa/internal/packager/index.html">packager</a> project.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "paralegal/index.html"></A><BR>
+<font size=-3></font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "paralegal/index.html">
+    Paralegal
+    
+  </A></B> - <em>
+    Legal reasoning decision making aid
+    
+  </em><br><font color="1D0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/paralegal/index.html">paralegal</a> is a legal reasoning system.</font>
+<font color="1D0000">It makes use of <a href="http://frdcsa.onshore.net/frdcsa/internal/reasonbase/index.html">reasonbase</a>
+    and  other systems  to <a href="http://frdcsa.onshore.net/frdcsa/internal/perform/index.html">perform</a>  legal reasoning.</font>
+<font color="1D0000">It  maintains a
+    formal  model  of  the  applicable  law.</font>
+<font color="1D0000">According  to  this  it
+    determines the  legitimacy of plans created  by <a href="http://frdcsa.onshore.net/frdcsa/internal/verber/index.html">verber</a>, preventing
+    <a href="http://frdcsa.onshore.net/frdcsa/internal/verber/index.html">verber</a>  from  knowingly  generating  plans to  accomplish  illegal
+    activities.</font>
+<font color="1D0000">It  evaluates the  legality  of  events as  reported
+    through  RSR.</font>
+<font color="1D0000">For  instance, if  the person  is the  victim  of a
+    crime,  it  may detect  this  and  thus  provide person  with  the
+    appropriate response.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "perform/index.html"></A><BR>
+<font size=-3></font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "perform/index.html">
+    Perform
+  </A></B> - <em>
+    Data structure and algorithms knowledge base.
+  </em><br><font color="280000">Currently  there does  not  appear  to be  a  good knowledge  base
+    regarding  data structures and  algorithms and  their performance.</font>
+<font color="280000"><a href="http://frdcsa.onshore.net/frdcsa/internal/perform/index.html">perform</a>  attempts to  be able  to  answer computability/complexity
+    problems in a variety of settings.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "perllib/index.html"></A><BR>
+<font size=-3>Arch <a href="perllib/arch.gif">[GIF]</a><br>
+Packages <a href="../packages/perllib_0.1-1_i386.deb">[DEB] </a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "perllib/index.html">PerlLib</A></B> - <em>
+    Perl API
+  </em><br><font color="260000">There  seems to  be,  amazingly enough,  various standard  library
+    features that are absent within CPAN.</font>
+<font color="260000"><a href="http://frdcsa.onshore.net/frdcsa/internal/perllib/index.html">perllib</a> is therefore simply
+    a  collection of  miscellaneous  modules developed  for our  other
+    systems that really belong in  an API.</font>
+<font color="260000">This may eventually relate
+    to   the  shared   standard  programming   library,  which   is  a
+    semi-automatically  generated  library of  an  enormous number  of
+    standard algorithms with a knowledge base and expert systems.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "pgourmet/index.html"></A><BR>
+<font size=-3>Arch <a href="pgourmet/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "pgourmet/index.html">
+    PGourmet
+  </A></B> - <em>
+    Gourmet prototype
+  </em><br><font color="250000">Rather than try  to engineer the entire <a href="http://frdcsa.onshore.net/frdcsa/internal/gourmet/index.html">gourmet</a>  system at once, a
+    task  which  proved too  difficult,  we  have  focused instead  in
+    building a toy system that nonetheless can serve to feed us in the
+    mean  time.</font>
+<font color="250000">This  formalizes the  interface, making  the previous
+    bottlenecks of  data extraction much easier because  the target is
+    there.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "picform/index.html"></A><BR>
+<font size=-3>Arch <a href="picform/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "picform/index.html">
+    PICForm
+  </A></B> - <em>
+    Implementation of Coslor's PICForm
+  </em><br><font color="310000">Information  can  be  represented  metaphorically as  Patterns  in
+    Contexts (PIC) through  epistemological and ontological formalized
+    cross-domain relations (CDRs) and Word Sense Triangulations (WSTs)
+    which  eliminate ambiguity  within metaphoric  mappings  and other
+    data structures.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "problemspace/index.html"></A><BR>
+<font size=-3>Man <a href="problemspace/manual.ps">[PS]</a><br>Arch <a href="problemspace/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "problemspace/index.html">
+    ProblemSpace
+  </A></B> - <em>
+    Operations management real-time strategy system
+  </em><br><font color="1B0000">Problems need not  be complex.</font>
+<font color="1B0000">Very often the  cause of a problem
+    is <a href="http://frdcsa.onshore.net/frdcsa/internal/clear/index.html">clear</a>.</font>
+<font color="1B0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/problemspace/index.html">problemspace</a> is  a system that visualizes problems, and
+    lets  problem-solving  tactitians  make  decisions  that  lead  to
+    results for  everyone involved.</font>
+<font color="1B0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/problemspace/index.html">problemspace</a>  is a C2  system for
+    problem-solving  tacticians.</font>
+<font color="1B0000">It   is  an  interface  to  augment
+    analysts  with relevant  intelligence and  provide  Mutual Assured
+    Security (MAS).</font>
+<font color="1B0000">It provides roughly  a real time strategy view of
+    executing operations, and also manages the planning of operations.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "pse/index.html"></A><BR>
+<font size=-3>Arch <a href="pse/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "pse/index.html">PSE</A></B> - <em>
+    Integrated multi-agent planning, scheduling and execution
+  </em><br><font color="1B0000">The  <a href="http://frdcsa.onshore.net/frdcsa/internal/pse/index.html">pse</a> system  is  currently responsible  for organizing  system
+    planning.</font>
+<font color="1B0000">It does this by determining relations that hold between
+    various  plan goals.</font>
+<font color="1B0000">Currently,  we are  working with  modelling
+    these relationships with ActionPredicates in OpenCyc.</font>
+<font color="1B0000">A different
+    project  is responsible  for  automatically translating  sentences
+    into   equivalent    cyc   representations   using    word   sense
+    disambiguation,  as  well  as  machine  translation.</font>
+<font color="1B0000">Conversely,
+    generation  is achieved  through  machine translation  to the  ISI
+    Halogen system's interlingua.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "pverber/index.html"></A><BR>
+<font size=-3>Arch <a href="pverber/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "pverber/index.html">
+    PVerber
+  </A></B> - <em>
+    Simpler version of Verber, to get it off the ground
+  </em><br><font color="310000"><a href="http://frdcsa.onshore.net/frdcsa/internal/verber/index.html">verber</a>  is quite  a complex  system  that we  cut up  quite a  bit
+    recently trying  to improve  it substantially.</font>
+<font color="310000">The  old metaphors
+    have been superceded and so a redesign is in order.</font>
+<font color="310000">The essential
+    components exist in other systems like <a href="http://frdcsa.onshore.net/frdcsa/internal/manager/index.html">manager</a>.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "quac/index.html"></A><BR>
+<font size=-3>Arch <a href="quac/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "quac/index.html">
+    QUAC
+  </A></B> - <em>
+    A free question answering system
+  </em><br><font color="280000">One vital technology is question answering.</font>
+<font color="280000">After a decent amount
+    of searching  I became convinced  that, with a few  exceptions, QA
+    tools are  not being  released under open  licenses.</font>
+<font color="280000">It  was only
+    when I  created the  <a href="http://frdcsa.onshore.net/frdcsa/internal/quac/index.html">quac</a> project that  I realized that  I already
+    have archived  a very related Q/A  type system, of  the same name.</font>
+<font color="280000">And here I was wondering why the name hadn't already been used.</font>
+<font color="280000">I
+    figured it was too  self-deprecatory.</font>
+<font color="280000">If still necessary, this is
+    an  implementation of a  low tech  Q/A system.</font>
+<font color="280000">Fortunately, many
+    components  are released,  and  we will  try  to integrate  those.</font>
+<font color="280000">Also,  much documentation  exists as  to how  to go  about writing
+    them.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "radar/index.html"></A><BR>
+<font size=-3>Man <a href="radar/manual.ps">[PS]</a><br>Arch <a href="radar/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "radar/index.html">RADAR</A></B> - <em>
+    Rapid Application Discovery And Retrieval
+  </em><br><font color="250000"><a href="http://frdcsa.onshore.net/frdcsa/internal/radar/index.html">radar</a> is  a catch-<a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a> system  for creating ontologies  of software
+    systems  from web sources.</font>
+<font color="250000">It is  responsible for  modelling the
+    state   of  various  online   software,  and   uses  sophisticated
+    heuristics for  retrieval.</font>
+<font color="250000">Just as  an example, it  estimates the
+    stability  (future availability)  of the  software  in determining
+    whether to  retrieve it to ration storage  and bandwidth capacity,
+    and uses  previous release timing to prioritize  link checking and
+    reindexing  of already indexed  codebases.</font>
+<font color="250000">It  has many  modes of
+    operation (spidering, request brokering), and we have not yet been
+    able to  come up with  a formal model  of these behaviours,  or to
+    diagram  the architecture  effectively.</font>
+<font color="250000">The  list of  features is
+    also  very  extensive  and,  as  we  do not  yet  have  a  working
+    capabilities  management  system  at   time  of  writing,  is  not
+    compiled.</font>
+<font color="250000">Shortly,  we expect to list  its features automatically
+    on the FRDCSA website.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "reasonbase/index.html"></A><BR>
+<font size=-3>Arch <a href="reasonbase/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "reasonbase/index.html">ReasonBase</A></B> - <em>
+    Reasoned debate with formal semantics
+  </em><br><font color="110000">A system for representing arguments according to precise formal
+    semantics, promoting reasoned debate and rapid knowledge
+    formation.</font>
+<font color="110000">This gives an operationalist scientific basis to
+    discussions, reducing them to syntactic operations.</font>
+<font color="110000">This
+    eliminates large classes of debate tactics and generally informs
+    decisions which will improve objective conditions.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "rwhois/index.html"></A><BR>
+<font size=-3>Arch <a href="rwhois/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "rwhois/index.html">
+    RWhois Interface
+  </A></B> - <em>
+    Web based RWhois Interface
+  </em><br><font color="6E0000">Allows the editting of <a href="http://frdcsa.onshore.net/frdcsa/internal/rwhois/index.html">rwhois</a> information on a server running.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "sanctus/index.html"></A><BR>
+<font size=-3>Arch <a href="sanctus/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "sanctus/index.html">
+    Sanctus
+  </A></B> - <em>
+    Customs, only lets the light in
+  </em><br><font color="320000"><a href="http://frdcsa.onshore.net/frdcsa/internal/sanctus/index.html">sanctus</a> is a system that establishes a hermetic seal around a
+    computer as a sanctuary of light and knowledge.</font>
+<font color="320000">Many strategies
+    are employed to detect trojan horses, negative symbols, impure
+    images, etc.  It functions to quarantine the user as well as to
+    quantify the information flux onto the computer.</font>
+<font color="320000"><a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a> data
+    transfers to and from the computer are initiated under
+    authorization from <a href="http://frdcsa.onshore.net/frdcsa/internal/sanctus/index.html">sanctus</a>, which will most often check the
+    content using its most sophisticated content filters,
+    blacklisting, pattern recognition, etc.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "savant/index.html"></A><BR>
+<font size=-3>Arch <a href="savant/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "savant/index.html">Savant</A></B> - <em>
+    Capabilities management for heterogenously skilled agents
+  </em><br><font color="2A0000">Basically  a reimplementation  of capabilities  management systems
+    like: A-Match or MatchMaker.</font>
+<font color="2A0000">Can  be applied to humans as well as
+    agents.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "score/index.html"></A><BR>
+<font size=-3>Arch <a href="score/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "score/index.html">
+    Score
+  </A></B> - <em></em><br>
+    Computers score based on how  much progress towards your goals was
+    made.
+  </FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "seeker/index.html"></A><BR>
+<font size=-3>Arch <a href="seeker/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "seeker/index.html">Seeker</A></B> - <em>
+    System for guiding searches of all kinds
+  </em><br><font color="330000">Searches are more profitable when the correct procedures for
+    searches are followed.</font>
+<font color="330000">This generally includes writing a
+    definition for the search.</font>
+<font color="330000"><a href="http://frdcsa.onshore.net/frdcsa/internal/seeker/index.html">seeker</a> integrates <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a> the searchers
+    tools into a reusable platform.</font>
+<font color="330000">It maintains a database of
+    current searches and even generates subsearches of its own based
+    on other system activities.</font>
+<font color="330000">It also helps to regulate internet
+    access by changing usage patterns from browsing to specific
+    retrievals.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "setanta/index.html"></A><BR>
+<font size=-3>Arch <a href="setanta/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "setanta/index.html">
+    Setanta
+  </A></B> - <em>
+    Practically invulnerable defensive security
+  </em><br><font color="4B0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/setanta/index.html">setanta</a> is a IPS (intrusion prevention system).</font>
+<font color="4B0000">It is responsible
+    for integrating various other security systems and even using A.I.
+    inference to do network security among other types of security.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "setanta-client/index.html"></A><BR>
+<font size=-3>Arch <a href="setanta-client/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "setanta-client/index.html">
+    Setanta-Client
+  </A></B> - <em>
+    Setanta client programs
+  </em><br><font color="6E0000">These programs  include many  scripts designed to  improve onShore
+    operations and thus are not suitable for external use.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "shops/index.html"></A><BR>
+<font size=-3>Arch <a href="shops/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "shops/index.html">SHOPS</A></B> - <em>
+    Integrated POS system
+  </em><br><font color="0E0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/shops/index.html">shops</a> is a Perl/MySQL-based  POS system with a perpetual inventory
+    and several basic features.</font>
+<font color="0E0000">It is  designed to be easy to use, is
+    implemented in OO Perl, and interfaces with many FRDCSA systems to
+    provide more versatile capabilities.</font>
+<font color="0E0000">It also incorporates modular
+    learning strategies to determine pricing and order quantities.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "silo/index.html"></A><BR>
+<font size=-3>Arch <a href="silo/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "silo/index.html">Silo</A></B> - <em>
+    Generic inventory management library
+  </em><br><font color="280000">Designed  to handle home/small  business inventory  management.</font>
+<font color="280000">A
+    reimplementation  of  the  <a href="http://frdcsa.onshore.net/frdcsa/internal/shops/index.html">shops</a>  Inventory  System  but  allowing
+    different kinds  of inventory.</font>
+<font color="280000">Basically, a system  to know where
+    things are.</font>
+<font color="280000">Interfaces with <a href="http://frdcsa.onshore.net/frdcsa/internal/shops/index.html">shops</a> to  manage business inventory,
+    and other program such as  <a href="http://frdcsa.onshore.net/frdcsa/internal/verber/index.html">verber</a> to provide logistics, <a href="http://frdcsa.onshore.net/frdcsa/internal/gourmet/index.html">gourmet</a> to
+    manage food items inventory, and automatic online ordering through
+    <a href="http://frdcsa.onshore.net/frdcsa/internal/broker/index.html">broker</a>.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "sinless/index.html"></A><BR>
+<font size=-3>Arch <a href="sinless/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "sinless/index.html">SinLess</A></B> - <em>
+    Computational Ethics
+  </em><br><font color="310000"><a href="http://frdcsa.onshore.net/frdcsa/internal/sinless/index.html">sinless</a>  is a psychometric  reporting system  for users  to record
+    their present  condition and beliefs, etc.   <a href="http://frdcsa.onshore.net/frdcsa/internal/sinless/index.html">sinless</a> combines this
+    information  with  that  from   other  systems  and  mines  causal
+    relationships.</font>
+<font color="310000">Behaviour modification  training, changes to SOPs,
+    and new  goals are used to eliminate  undesirable states.</font>
+<font color="310000"><a href="http://frdcsa.onshore.net/frdcsa/internal/sinless/index.html">sinless</a>
+    also exports its functionality as a decision aid to other systems.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "socbot/index.html"></A><BR>
+<font size=-3>Arch <a href="socbot/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "socbot/index.html">
+    SocBot
+  </A></B> - <em>
+    Friendly Social Intelligence
+  </em><br><font color="430000"><a href="http://frdcsa.onshore.net/frdcsa/internal/socbot/index.html">socbot</a> is responsible for representing friendly social
+    information, like contact lists, <a href="http://frdcsa.onshore.net/frdcsa/internal/meeting/index.html">meeting</a> times, etc.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "source-hatchery/index.html"></A><BR>
+<font size=-3>Arch <a href="source-hatchery/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "source-hatchery/index.html">Source Hatchery</A></B> - <em>
+    Formative project management
+  </em><br><font color="0E0000">Manages  projects   that  are  in  the  early   stages  and  whose
+    architectures  and  systems  are  either less  developed  or  less
+    essential  than  existing   systems.</font>
+<font color="0E0000">Relates  with  capabilities
+    management.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "study/index.html"></A><BR>
+<font size=-3>Arch <a href="study/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "study/index.html">
+    Study
+  </A></B> - <em>
+    Studying functionality that should go into CLEAR
+  </em><br><font color="290000">It's great  for "I need to know  a lot of stuff,  and fast".</font>
+<font color="290000">Here
+    are the pedogogical objectives, please generate a <a href="http://frdcsa.onshore.net/frdcsa/internal/study/index.html">study</a> session.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "svrs/index.html"></A><BR>
+<font size=-3>Arch <a href="svrs/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "svrs/index.html">
+    SVRS
+  </A></B> - <em>
+    An (imaginary) place considered to be perfect or ideal
+  </em><br><font color="300000">The <a href="http://frdcsa.onshore.net/frdcsa/internal/svrs/index.html">svrs</a> software environment contains: Elements - the collection
+    of simulators for each of the basic Shelter systems (climate,
+    waste, food, communications, etc.); HAL - the actual control
+    software to be used in SVRSes; NeuroSys - planning domains for
+    shelter construction and COA/SOPs for living in the shelter;
+    GUESS: GIS tools for site selection; and generally <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a> software
+    based shelter resources.</font>
+<font color="300000">The name of the first <a href="http://frdcsa.onshore.net/frdcsa/internal/svrs/index.html">svrs</a> will be
+    "Discovery".</font>
+<font color="300000">The codename of the first location is "Jupiter".</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "symbiosis/index.html"></A><BR>
+<font size=-3>Arch <a href="symbiosis/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "symbiosis/index.html">
+    Symbiosis
+  </A></B> - <em>
+    Symbiotic Command software
+  </em><br><font color="280000">Implements functionality specific to the Symbiotic Command</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "transport/index.html"></A><BR>
+<font size=-3>Arch <a href="transport/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "transport/index.html">
+    Transport
+  </A></B> - <em>
+    General real world transportation planner
+  </em><br><font color="250000"><a href="http://frdcsa.onshore.net/frdcsa/internal/transport/index.html">transport</a>  coordinates <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a>  transportation  planning.</font>
+<font color="250000">This  would
+    include, air, charter, bus, train, subway, car, foot, bike, ferry,
+    boat, etc.  A part of it also interfaces with <a href="http://frdcsa.onshore.net/frdcsa/internal/verber/index.html">verber</a> and Inventory
+    Management to help manage logistics.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "unilang/index.html"></A><BR>
+<font size=-3>Man <a href="unilang/manual.ps">[PS]</a><br>Arch <a href="unilang/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "unilang/index.html">UniLang</A></B> - <em>
+    Stream of consciousness multiagent system
+  </em><br><font color="330000"><a href="http://frdcsa.onshore.net/frdcsa/internal/unilang/index.html">unilang</a> coordinates the agents and allows them to send messages to
+    each   other.</font>
+<font color="330000">It   performs  multistrategy,   context  sensitive
+    classification  and routing of  messages.</font>
+<font color="330000">It  is very  useful for
+    recording  arbitrary thoughts,  since it  will route  them  to the
+    appropriate locations  and services, performing  translation where
+    necessary and  possible, interacting with  to disambiguate serious
+    cases.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "vanguard/index.html"></A><BR>
+<font size=-3>Arch <a href="vanguard/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "vanguard/index.html">
+    Vanguard
+  </A></B> - <em>
+    Various programs to help run the Van.
+  </em><br><font color="7E0000">This system contains various scripts to monitor the van and
+    enhance security.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "verber/index.html"></A><BR>
+<font size=-3>Man <a href="verber/manual.ps">[PS]</a><br>Arch <a href="verber/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "verber/index.html">Verber</A></B> - <em>
+    Contingency planning, crisis management
+  </em><br><font color="1F0000">Traditionally,  planning systems  are  <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a> about  finding ways  to
+    solve  the combinatoric problem  of satisfying  a few  goals.</font>
+<font color="1F0000">Why
+    these goals are selected is  not usually of any consequence.</font>
+<font color="1F0000">What
+    we really need  is a system that understands  what happens if, for
+    instance, you  do not  pay your rent.</font>
+<font color="1F0000">Another thing, is  that it
+    make sure  that the daily  average of some required  thing exceeds
+    what it  needs to be, hence  ensuring that you  don't fall behind.</font>
+<font color="1F0000">So,  our  system  is  for  instance  able to  reason  as  to  what
+    consequences will happen if certain actions are taken or forsaken,
+    and on the  basis of this, determine what  it thinks are important
+    goals.</font>
+<font color="1F0000">Involve some kind  of automatic relational multidimensional queue.</font>
+<font color="1F0000">Ensure that it looks at everything (completeness).</font>
+<font color="1F0000">A planner that
+    looks  at  <a href="http://frdcsa.onshore.net/frdcsa/internal/all/index.html">all</a>  possible  actions,  and calculates  what  is  most
+    effective for you to do.</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+<TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "web-analytics/index.html"></A><BR>
+<font size=-3>Arch <a href="web-analytics/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "web-analytics/index.html">
+    Web Analytics
+  </A></B> - <em></em><br>
+    This is a work system that measures website efficacy.
+  </FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR VALIGN="TOP"><TD WIDTH=50% ALIGN=LEFT VALIGN=TOP>
+  <TABLE WIDTH=100% BORDER=0 CELLPADDING=3>
+    <TR valign="top">
+      <TD VALIGN=TOP ALIGN=LEFT WIDTH=100 >
+        <A HREF = "wow/index.html"></A><BR>
+<font size=-3>Arch <a href="wow/arch.gif">[GIF]</a><br>
+</font></TD>
+      <TD VALIGN=TOP ALIGN=JUSTIFY PADDING=10>
+        <FONT FACE="Arial, Helvetica, 'Sans Serif'">
+        <B><A HREF = "wow/index.html">
+    WOW
+  </A></B> - <em>
+    A text filter/web proxy that rewrites propaganda.
+  </em><br><font color="6E0000"><a href="http://frdcsa.onshore.net/frdcsa/internal/wow/index.html">wow</a> wants  to make people say  <a href="http://frdcsa.onshore.net/frdcsa/internal/wow/index.html">wow</a> when they  see how linguistic
+      rewriting changes the meaning and they realize that the media is
+      intentionally   confusing  different   concepts  to   their  own
+      advantage.</font>
+<font color="6E0000">Even as  someone  who has  read  numerous books  on
+      counter-propaganda this system was an eye-opener!</font></FONT>
+      </TD>
+    </TR>
+  </TABLE>
+</TD>
+</TR>
+</TABLE><P>
+<P>
+  <HR size="1" align="left" noshade>
+  <FONT FACE="Arial, Helvetica, 'Sans Serif'" SIZE="-1">
+  This page is part of the FWeb package.<BR>
+  It derives from the <a href="http://www.ri.cmu.edu/projects/">
+  Robotics Institute projects page</a>.<BR>
+  Last updated Mon Jan 15 08:32:15 CST 2007.<BR>
+
+</FONT>
+</FONT></BODY></HTML>
